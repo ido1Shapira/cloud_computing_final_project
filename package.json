@@ -1,0 +1,28 @@
+{
+  "name": "arieldemo2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "bigml": "^1.22.2",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "json2csv": "^5.0.6",
+    "kafka-node": "^5.0.0",
+    "mongodb": "^3.6.9",
+    "node-rdkafka": "^2.8.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0",
+    "utf-8-validate": "^5.0.2",
+    "uuid": "^8.1.0"
+  }
+}
