@@ -30,7 +30,7 @@ consumer.on("ready", function(arg) {
   consumer.consume();
 });
 
-const mongodb = require('./mongodb')
+const mongodb = require('./mongoDB')
 consumer.on("data", function(m) {
   // console.log(m.value.toString());
   var carParams = JSON.parse(m.value);

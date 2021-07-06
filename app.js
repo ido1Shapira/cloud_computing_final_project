@@ -7,7 +7,7 @@ const port = 3000
 
 //------------------- mongoDB -----------
 
-const mongodb = require('./mongodb')
+const mongodb = require('./mongoDB')
 
 //------------------- Redis & Docker -----------
 

@@ -21,7 +21,7 @@ module.exports.saveSimulatorTopic = function (newCar, sendMessage) {
 }
 
 module.exports.dataToCSV = function () {
-  mongodb.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }, 
+  MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }, 
     (err, client) => {
       if (err) throw err;
       client.db(dataBase).collection(collection).find({}).toArray((err, data) => {
