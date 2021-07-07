@@ -5,6 +5,13 @@ var server = require('http').createServer(app);
 const io = require("socket.io")(server)
 const port = 3000
 
+let confusionMatrix = [
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+];
 //------------------- mongoDB -----------
 
 const mongodb = require('./mongoDB')
@@ -24,11 +31,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 //------------ Socket.io ----------------
-// io.on("connection", (socket) => {
-//     console.log("new user connected");
-//     socket.on("totalWaitingCalls", (msg) => { console.log(msg.totalWaiting) });
-//     socket.on("callDetails", (msg) => { console.log(msg);kafkaPublisher.publish(msg) });
-// });
+
+io.on("connection", (socket) => {
+    console.log("new user connected");
+    // socket.on('predict finish', (msg) => {
+    //     io.emit('message: ' + msg);
+    //   });
+});
 
 //------------------- bigML -----------
 
@@ -36,7 +45,19 @@ const bigml = require('./bigML');
 app.post('/trainModel', (req, res) => {
     mongodb.dataToCSV();
     bigml.trainModel();
-    res.end(`the model has trained`);
+    // res.end(`the model has trained`);
+})
+app.post('/updateconfusionMatrix', (req, res) => {
+    var predict_class=parseInt(req.body.predict);
+    var actual_class=parseInt(req.body.actual);
+    
+    if(predict_class < 1 || predict_class > 5 ||
+        actual_class < 1 || actual_class > 5) {
+            console.error("value classes not right: \npredict_class: "+ predict_class + "\nactual_class: "+ actual_class);
+    }
+    confusionMatrix[predict_class-1][actual_class-1] += 1;
+    res.redirect('/confusionMatrix');
+    io.sockets.emit('reload', {});
 })
 
 //------------
@@ -47,7 +68,9 @@ app.use(express.static("public"));
 app.get('/', function(request, response){
     response.sendFile(path.join(__dirname)+'/index.html');
 });
-app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix'));
+app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix', {
+    confusionMatrix: confusionMatrix
+}));
 // 
 // app.get('/edenandanna', (req, res) => res.render('edenandanna'));
 

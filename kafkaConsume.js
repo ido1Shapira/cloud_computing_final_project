@@ -30,16 +30,17 @@ consumer.on("ready", function(arg) {
   consumer.consume();
 });
 
-const mongodb = require('./mongoDB')
+const mongodb = require('./mongoDB');
+const bigml = require('./bigML');
 consumer.on("data", function(m) {
   // console.log(m.value.toString());
   var carParams = JSON.parse(m.value);
   //send here the data to mongo
-  mongodb.saveSimulatorTopic(carParams,
-    (message)=>{
-        console.log(message)
-    });
-});
+  mongodb.saveSimulatorTopic(carParams, (message)=>{
+                                          console.log(message)
+                                        });
+  bigml.onePrediction(carParams);
+  });
 consumer.on("disconnected", function(arg) {
   process.exit();
 });
