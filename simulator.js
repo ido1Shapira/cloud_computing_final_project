@@ -1,7 +1,7 @@
 const { time } = require("console")
 const fs = require('fs');
 
-// function returns a redmom number in a given range 
+// function returns a random number in a given range 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
@@ -11,7 +11,7 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
     let weekdays = ['Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
     let type = ['Private', 'Comercial', 'Truck']
     // create a JSON object
-    const user = {
+    const event = {
         "Event type": et,
         "Segment": seg,
         "ID" : id,
@@ -22,7 +22,7 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
     };
 
     // convert JSON object to string
-    const data = JSON.stringify(user);
+    const data = JSON.stringify(event);
 
     // write JSON string to a file
     fs.writeFile('user.json', data, (err) => {
