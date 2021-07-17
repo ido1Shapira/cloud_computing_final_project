@@ -1,6 +1,7 @@
 const { time } = require("console")
 const fs = require('fs');
 
+// Class vehicle 
 class Vehicle{
     constructor(vehicleType, id){
         this.vehicaleType = vehicleType
@@ -9,6 +10,8 @@ class Vehicle{
 
 }
 
+
+// Class segment 
 class Segment{
     constructor(id){
         this.id = id
@@ -18,21 +21,41 @@ class Segment{
         trucksNum = 0
     }
 	
-    
+    // when a vehicle is entering a segment, this function will be called 
 	addviechel(Vehicle){
         veachleset.add(viechel)
-        if (viechel.vehicleType == )
+        if (viechel.vehicleType == 0){
+            privateNum++
+        }
+        else if(viechel.vehicleType == 1){
+            comercialNum++
+        }
+        else{
+            trucksNum++
+        }
     }
-        
+    
+    // when a vehicle is exiting a segment, this function will be called 
 	removeviechel(viechel){
         veachleset.remove(viechel)
+        if (viechel.vehicleType == 0){
+            privateNum--
+        }
+        else if(viechel.vehicleType == 1){
+            comercialNum--
+        }
+        else{
+            trucksNum--
+        }
     }
 }
 
+// function returns a redmom number in a given range 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
-  }
-  
+}
+
+// write event with given 6 parameters in a json format
 function writeEvent(et, seg, vt, dotw, time, sd){
     let weekdays = ['Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
@@ -58,8 +81,11 @@ function writeEvent(et, seg, vt, dotw, time, sd){
     });
 }
 
-function main(){
 
+// MAIN SIMULATOR FUNCTION
+function main(){
+    
+    console.log('hello world')
     //create segments and segment array
     var seg1 = new segment()
     var seg2 = new segment()
