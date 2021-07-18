@@ -39,7 +39,7 @@ consumer.on("data", function(m) {
   // console.log(m.value.toString());
   var carParams = JSON.parse(m.value);
   for(var i=0; i<observers.length; i++) {
-    console.log(observers[i]);
+    // console.log(observers[i]);
     observers[i].onEvent(carParams);
   }
   });

@@ -1,8 +1,6 @@
 const { time } = require("console")
 const fs = require('fs');
-
-
-//const kafkaPublisher = require('./kafkaProduce');
+const kafkaPublisher = require('./kafkaProduce');
 
 // function returns a random number in a given range 
 function getRandomInt(max) {
@@ -17,22 +15,19 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
     const event = {
         "Event type": et,
         "Segment": seg,
-        "ID" : id,
+        "id" : id,
         "vehicle type": type[vt],
         "Day of the week" : weekdays[dotw-1],
         "Time": time,
         "Special day?": sd
     };
 
-
-    //kafkaPublisher.publish(event);
-    
-    var socket = io();
-    socket.on('sent', function (data) {
-        location.reload();
-    });
-    io.sockets.emit('sent', event);
-    
+    try {
+        kafkaPublisher.publish(event);
+    }
+    catch(err) {
+        console.error(err);
+    }
 }
 
 async function sleep(ms) {
@@ -42,7 +37,7 @@ async function sleep(ms) {
 
 //////////////////// MAIN SIMULATOR ////////////////////////////////////////
 
-module.exports.run= function(){
+module.exports.run= async function(){
     console.log('starting simulator')
     //create segments and segment array
     const seg1 = new Map()
@@ -67,7 +62,7 @@ module.exports.run= function(){
         let currentid = 0
 
         let sleeptime = getRandomInt(5)
-        //await new Promise(resolve => setTimeout(resolve, sleeptime));
+        await sleep(sleeptime);
         var time = dateObj.getHours() + ":" + dateObj.getMinutes() + ":" + dateObj.getSeconds();
         ev = getRandomInt(2) //0- road entry, 1 segment exit
         
@@ -78,9 +73,9 @@ module.exports.run= function(){
             let id = currentid
             currentid++
             
-            writeEvent("road entry", seg,vehicletype,dayofweek,time,isSpecialDay)
-            writeEvent("segment entry",seg,vehicletype,dayofweek,time,isSpecialDay)
-            segarr[seg-1].set(id,vehicletype)
+            writeEvent("road entry", seg, id, vehicletype,dayofweek,time,isSpecialDay)
+            writeEvent("segment entry",seg, id, vehicletype,dayofweek,time,isSpecialDay)
+            segarr[seg-1].set(currentid,vehicletype)
         }
         
         //segment exit
@@ -92,21 +87,21 @@ module.exports.run= function(){
             
             if (seg ==5 ){//exit road 
                 writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay)
-                writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay)
                 segarr[seg-1].delete(id)
+                writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay)
             }
             else{
                 ev = getRandomInt(2) //0- next segment, 1 road exit
                 if(ev == 0){ //next segment
-                    writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay)
-                    writeEvent("segment enrty",seg+1,id,vehicletype,dayofweek,time,isSpecialDay)
+                    writeEvent("segment exit", seg, id,vehicletype,dayofweek,time,isSpecialDay)
+                    writeEvent("segment enrty",seg+1, id,vehicletype,dayofweek,time,isSpecialDay)
                     segarr[seg-1].delete(id)//get viechel out of exit segment set
                     segarr[seg].set(id,vehicletype)//get veichel into new segment set
                 }
 
                 else{
-                    writeEvent("segment exit", seg,vehicletype,dayofweek,time,isSpecialDay)
-                    writeEvent("road exit",seg,vehicletype,dayofweek,time,isSpecialDay)
+                    writeEvent("segment exit", seg, id, vehicletype,dayofweek,time,isSpecialDay)
+                    writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay)
                     segarr[seg-1].delete(id)
                 }
             }

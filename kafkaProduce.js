@@ -2,6 +2,8 @@
 
 const uuid = require("uuid");
 const Kafka = require("node-rdkafka");
+const io = require("socket.io-client");
+var socket = io();
 
 const kafkaConf = {
   "group.id": "cloudkarafka-example", //check what to put here
@@ -22,17 +24,14 @@ const genMessage = m => new Buffer.alloc(m.length,m);
 
 producer.on("ready", function(arg) {
   console.log(`producer Simulator is ready.`);
+  // send to simulator green light using socket io
+  // socket.emit("simulator", {});
 });
 producer.connect();
-var socket = io();
-    socket.on('sent', function (data) {
-      producer.produce(topic, -1, genMessage(data), uuid.v4()); 
-      //io.sockets.emit('sent', event);
-    });
 
-//module.exports.publish= function(msg)
-//{   
-  //m=JSON.stringify(msg);
-  //producer.produce(topic, -1, genMessage(m), uuid.v4());  
+module.exports.publish= function(msg)
+{   
+  m=JSON.stringify(msg);
+  producer.produce(topic, -1, genMessage(m), uuid.v4());  
   //producer.disconnect();   
-//}
+}

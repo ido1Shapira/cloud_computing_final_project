@@ -13,8 +13,6 @@ let confusionMatrix = [
     [0, 0, 0, 0, 0],
 ];
 
-
-
 //------------------- mongoDB -----------
 
 const mongodb = require('./mongoDB');
@@ -40,9 +38,8 @@ const bodyParser = require('body-parser');
 
 kafkaConsume.addObserver(mongodb);
 kafkaConsume.addObserver(bigml);
+
 const kafkaPublisher = require('./kafkaProduce');
-
-
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -50,18 +47,21 @@ app.use(bodyParser.urlencoded({ extended: false }));
 //------------------- simulator -----------
 
 const simulator = require('./simulator');
-
-simulator.run()
-
+simulator.run();
 
 //------------ Socket.io ----------------
 
 io.on("connection", (socket) => {
-    console.log("new user connected");
-    // socket.on('predict finish', (msg) => {
-    //     io.emit('message: ' + msg);
-    //   });
+    console.log('a user connected');
+    // socket.on("simulator", (msg) => {
+    //     simulator.run();
+    // });
 });
+  
+
+// ----------------------------------------------
+
+
 
 
 app.post('/updateconfusionMatrix', (req, res) => {

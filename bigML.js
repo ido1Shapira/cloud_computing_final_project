@@ -52,7 +52,7 @@ var ML = {
             });
         }
         else {
-            console.error("model has not trained yet!");
+            // console.error("model has not trained yet!");
         }
     }
 }
