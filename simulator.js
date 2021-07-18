@@ -43,7 +43,7 @@ async function sleep(ms) {
 
 //////////////////// MAIN SIMULATOR ////////////////////////////////////////
 
-module.exports.run= async function(){
+module.exports.run= function(){
     console.log('starting simulator')
     //create segments and segment array
     const seg1 = new Map()
@@ -61,7 +61,6 @@ module.exports.run= async function(){
         isSpecialDay = true
     }
 
-
     var dateObj = new Date();
     var dayofweek = dateObj.getDay
 
@@ -69,7 +68,7 @@ module.exports.run= async function(){
         let currentid = 0
 
         let sleeptime = getRandomInt(5)
-        await sleep(sleeptime);
+        //await new Promise(resolve => setTimeout(resolve, sleeptime));
         var time = dateObj.getHours() + ":" + dateObj.getMinutes() + ":" + dateObj.getSeconds();
         ev = getRandomInt(2) //0- road entry, 1 segment exit
         
@@ -79,11 +78,10 @@ module.exports.run= async function(){
             let vehicletype = getRandomInt(3) // private, truck, comercial 
             let id = currentid
             currentid++
-            segarr[seg].set(id, type)
             
-            writeEvent("road entry", seg,viecheltype,dayofweek,time,isSpecialDay)
-            writeEvent("segment entry",seg,viecheltype,dayofweek,time,isSpecialDay)
-            segarr[seg-1].set(currentid,vehicletype)
+            writeEvent("road entry", seg,vehicletype,dayofweek,time,isSpecialDay)
+            writeEvent("segment entry",seg,vehicletype,dayofweek,time,isSpecialDay)
+            segarr[seg-1].set(id,vehicletype)
         }
         
         //segment exit
@@ -95,8 +93,8 @@ module.exports.run= async function(){
             
             if (seg ==5 ){//exit road 
                 writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay)
-                segarr[seg-1].delete(id)
                 writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay)
+                segarr[seg-1].delete(id)
             }
             else{
                 ev = getRandomInt(2) //0- next segment, 1 road exit
@@ -108,8 +106,8 @@ module.exports.run= async function(){
                 }
 
                 else{
-                    writeEvent("segment exit", seg,viecheltype,dayofweek,time,isSpecialDay)
-                    writeEvent("road exit",seg,viecheltype,dayofweek,time,isSpecialDay)
+                    writeEvent("segment exit", seg,vehicletype,dayofweek,time,isSpecialDay)
+                    writeEvent("road exit",seg,vehicletype,dayofweek,time,isSpecialDay)
                     segarr[seg-1].delete(id)
                 }
             }

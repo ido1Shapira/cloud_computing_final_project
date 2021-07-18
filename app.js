@@ -13,10 +13,7 @@ let confusionMatrix = [
     [0, 0, 0, 0, 0],
 ];
 
-//------------------- mongoDB -----------
 
-const simulator = require('./simulator');
-simulator.run();
 
 //------------------- mongoDB -----------
 
@@ -43,10 +40,18 @@ const bodyParser = require('body-parser');
 
 kafkaConsume.addObserver(mongodb);
 kafkaConsume.addObserver(bigml);
+const kafkaPublisher = require('./kafkaProduce');
+
 
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+//------------------- simulator -----------
+
+const simulator = require('./simulator');
+
+simulator.run()
 
 
 //------------ Socket.io ----------------
