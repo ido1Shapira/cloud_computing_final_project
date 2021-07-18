@@ -12,9 +12,20 @@ let confusionMatrix = [
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
 ];
+
 //------------------- mongoDB -----------
 
-const mongodb = require('./mongoDB')
+const mongodb = require('./mongoDB');
+
+//------------------- bigML -----------
+
+const bigml = require('./bigML');
+
+app.post('/trainModel', (req, res) => {
+    mongodb.dataToCSV();
+    bigml.trainModel();
+    // res.end(`the model has trained`);
+})
 
 //------------------- Redis & Docker -----------
 
@@ -25,6 +36,10 @@ const mongodb = require('./mongoDB')
 // const kafkaPublisher = require('./kafkaProduce');
 const kafkaConsume = require('./kafkaConsume');
 const bodyParser = require('body-parser');
+
+kafkaConsume.addObserver(mongodb);
+kafkaConsume.addObserver(bigml);
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -39,14 +54,7 @@ io.on("connection", (socket) => {
     //   });
 });
 
-//------------------- bigML -----------
 
-const bigml = require('./bigML');
-app.post('/trainModel', (req, res) => {
-    mongodb.dataToCSV();
-    bigml.trainModel();
-    // res.end(`the model has trained`);
-})
 app.post('/updateconfusionMatrix', (req, res) => {
     var predict_class=parseInt(req.body.predict);
     var actual_class=parseInt(req.body.actual);
