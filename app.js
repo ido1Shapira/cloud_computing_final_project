@@ -15,6 +15,11 @@ let confusionMatrix = [
 
 //------------------- mongoDB -----------
 
+const simulator = require('./simulator');
+simulator.run();
+
+//------------------- mongoDB -----------
+
 const mongodb = require('./mongoDB');
 
 //------------------- bigML -----------
@@ -33,7 +38,6 @@ app.post('/trainModel', (req, res) => {
 
 //------------ kafka------------
 
-// const kafkaPublisher = require('./kafkaProduce');
 const kafkaConsume = require('./kafkaConsume');
 const bodyParser = require('body-parser');
 
