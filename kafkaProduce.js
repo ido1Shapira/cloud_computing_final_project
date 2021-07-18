@@ -24,10 +24,15 @@ producer.on("ready", function(arg) {
   console.log(`producer Simulator is ready.`);
 });
 producer.connect();
+var socket = io();
+    socket.on('sent', function (data) {
+      producer.produce(topic, -1, genMessage(data), uuid.v4()); 
+      //io.sockets.emit('sent', event);
+    });
 
-module.exports.publish= function(msg)
-{   
-  m=JSON.stringify(msg);
-  producer.produce(topic, -1, genMessage(m), uuid.v4());  
+//module.exports.publish= function(msg)
+//{   
+  //m=JSON.stringify(msg);
+  //producer.produce(topic, -1, genMessage(m), uuid.v4());  
   //producer.disconnect();   
-}
+//}

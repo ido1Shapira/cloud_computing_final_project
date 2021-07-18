@@ -1,6 +1,8 @@
 const { time } = require("console")
 const fs = require('fs');
-const kafkaPublisher = require('./kafkaProduce');
+
+
+//const kafkaPublisher = require('./kafkaProduce');
 
 // function returns a random number in a given range 
 function getRandomInt(max) {
@@ -22,18 +24,15 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
         "Special day?": sd
     };
 
-    kafkaPublisher.publish(event);
 
-    // // convert JSON object to string
-    // const data = JSON.stringify(event);
-
-    // // write JSON string to a file
-    // fs.writeFile('user.json', data, (err) => {
-    //     if (err) {
-    //         throw err;
-    //     }
-    //     console.log("JSON data is saved.");
-    // });
+    //kafkaPublisher.publish(event);
+    
+    var socket = io();
+    socket.on('sent', function (data) {
+        location.reload();
+    });
+    io.sockets.emit('sent', event);
+    
 }
 
 async function sleep(ms) {
