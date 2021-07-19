@@ -9,25 +9,31 @@ function getRandomInt(max) {
 
 // write event with given 6 parameters in a json format
 function writeEvent(et, seg, id, vt, dotw, time, sd){
-    let weekdays = ['Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
-    let type = ['Private', 'Comercial', 'Truck']
+    var weekdays = ['Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    var type = ['Private', 'Comercial', 'Truck'];
     // create a JSON object
     const event = {
         "Event_type": et,
         "Segment": seg,
         "id" : id,
         "vehicle_type": type[vt],
-        "Day_of_the_week" : weekdays[dotw-1],
+        "Day_of_the_week" : weekdays[dotw],
         "Time": time,
         "Special_day?": sd
     };
-    console.log(event)
+    console.log(event);
 
     kafkaPublisher.publish(event);
 }
 
 async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// returns random key from Set or Map
+function getRandomKey(collection) {
+    let keys = Array.from(collection.keys());
+    return keys[Math.floor(Math.random() * keys.length)];
 }
 
 //////////////////// MAIN SIMULATOR ////////////////////////////////////////
@@ -47,38 +53,37 @@ module.exports.run= async function(){
     var segarr = [seg1,seg2,seg3,seg4,seg5]
 
     // decide if its a special day in a 1/5 chance
-    let spec = getRandomInt(5);
-    let isSpecialDay = false;
+    var spec = getRandomInt(5);
+    var isSpecialDay = false;
     if (spec == 4){
         isSpecialDay = true;
     }
 
     var dateObj = new Date();
-    var dayofweek = dateObj.getDay;
-    var firsttime =1
-    while(1){
-        let currentid = 0;
+    var dayofweek = getRandomInt(7);
+    var currentid = 0;
 
+    // enter 10 cars to the road
+    for (var i = 0; i < 10; i++){
+        var time = dateObj.getHours() + ":" + dateObj.getMinutes() + ":" + dateObj.getSeconds();
+        var seg = getRandomInt(5) +1; // entry segment
+        var vehicletype = getRandomInt(3); // private, truck, comercial 
+        var id = currentid;
+        currentid++;
+        
+        writeEvent("road entry", seg, id, vehicletype,dayofweek,time,isSpecialDay);
+        writeEvent("segment entry",seg, id, vehicletype,dayofweek,time,isSpecialDay);
+        segarr[seg-1].set(currentid,vehicletype);
+    }
+
+    while(1){
         var time = dateObj.getHours() + ":" + dateObj.getMinutes() + ":" + dateObj.getSeconds();
         ev = getRandomInt(2); //0- road entry, 1 segment exit
-        if (firsttime == 1){
-            for (let i = 0; i < 10; i++){
-                let seg = getRandomInt(5) +1; // entry segment
-                let vehicletype = getRandomInt(3); // private, truck, comercial 
-                let id = currentid;
-                currentid++;
-                
-                writeEvent("road entry", seg, id, vehicletype,dayofweek,time,isSpecialDay);
-                writeEvent("segment entry",seg, id, vehicletype,dayofweek,time,isSpecialDay);
-                segarr[seg-1].set(currentid,vehicletype);
-            }
-            firsttime = 0
-        }
         // road entry
         if(ev == 0){
-            let seg = getRandomInt(5) +1; // entry segment
-            let vehicletype = getRandomInt(3); // private, truck, comercial 
-            let id = currentid;
+            var seg = getRandomInt(5) +1; // entry segment
+            var vehicletype = getRandomInt(3); // private, truck, comercial
+            var id = currentid;
             currentid++;
             
             writeEvent("road entry", seg, id, vehicletype,dayofweek,time,isSpecialDay);
@@ -88,14 +93,15 @@ module.exports.run= async function(){
         
         //segment exit
         else{ 
-            let seg = getRandomInt(5)+1;
+            var seg = getRandomInt(5)+1;
             // no exit from empty segment
             while (segarr[seg-1].size == 0){
                 seg = getRandomInt(5)+1;
             }
-            randeomCar = getRandomInt(segarr[seg-1].size);
-            let id = segarr[seg-1][randeomCar];
-            let vehicletype = segarr[seg-1].get(id); // private, truck, comercial 
+            // randeomCar = getRandomInt(segarr[seg-1].size);
+            // var id = segarr[seg-1][randeomCar];
+            var id = getRandomKey(segarr[seg-1]);
+            var vehicletype = segarr[seg-1].get(id); // private, truck, comercial 
             
             if (seg ==5 ){//exit road 
                 writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay);
@@ -118,7 +124,7 @@ module.exports.run= async function(){
                 }
             }
         }
-        let sleeptime = getRandomInt(5) + 2;
+        var sleeptime = getRandomInt(5) + 2;
         await sleep(sleeptime*1000);
     }
 }
