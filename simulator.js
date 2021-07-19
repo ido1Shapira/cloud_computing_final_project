@@ -76,6 +76,10 @@ module.exports.run= async function(){
         //segment exit
         else{ 
             let seg = getRandomInt(5)+1;
+            // no exit from empty segment
+            while (segarr[seg-1].size == 0){
+                seg = getRandomInt(5)+1;
+            }
             randeomCar = getRandomInt(segarr[seg-1].size);
             let id = segarr[seg-1][randeomCar];
             let vehicletype = segarr[seg-1].get(id); // private, truck, comercial 
