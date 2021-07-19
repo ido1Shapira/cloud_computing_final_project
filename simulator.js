@@ -62,7 +62,17 @@ module.exports.run= async function(){
         var time = dateObj.getHours() + ":" + dateObj.getMinutes() + ":" + dateObj.getSeconds();
         ev = getRandomInt(2); //0- road entry, 1 segment exit
         if (firsttime == 1){
-            
+            for (let i = 0; i < 10; i++){
+                let seg = getRandomInt(5) +1; // entry segment
+                let vehicletype = getRandomInt(3); // private, truck, comercial 
+                let id = currentid;
+                currentid++;
+                
+                writeEvent("road entry", seg, id, vehicletype,dayofweek,time,isSpecialDay);
+                writeEvent("segment entry",seg, id, vehicletype,dayofweek,time,isSpecialDay);
+                segarr[seg-1].set(currentid,vehicletype);
+            }
+            firsttime = 0
         }
         // road entry
         if(ev == 0){
