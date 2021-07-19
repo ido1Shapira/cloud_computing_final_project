@@ -21,7 +21,7 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
         "Time": time,
         "Special_day?": sd
     };
-    console.log(event);
+    // console.log(event);
 
     kafkaPublisher.publish(event);
 }
