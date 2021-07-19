@@ -21,6 +21,7 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
         "Time": time,
         "Special_day?": sd
     };
+    console.log(event)
 
     kafkaPublisher.publish(event);
 }
@@ -54,13 +55,15 @@ module.exports.run= async function(){
 
     var dateObj = new Date();
     var dayofweek = dateObj.getDay;
-
+    var firsttime =1
     while(1){
         let currentid = 0;
 
         var time = dateObj.getHours() + ":" + dateObj.getMinutes() + ":" + dateObj.getSeconds();
         ev = getRandomInt(2); //0- road entry, 1 segment exit
-        
+        if (firsttime == 1){
+            
+        }
         // road entry
         if(ev == 0){
             let seg = getRandomInt(5) +1; // entry segment
