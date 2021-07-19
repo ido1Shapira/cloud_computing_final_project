@@ -40,7 +40,7 @@ consumer.on("ready", function(arg) {
 });
 
 consumer.on("data", function(m) {
-  console.log(m.value.toString());
+  console.log("consumer: " + m.value.toString());
   var carParams = JSON.parse(m.value);
   for(var i=0; i<observers.length; i++) {
     // console.log(observers[i]);

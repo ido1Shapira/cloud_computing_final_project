@@ -25,11 +25,14 @@ var mongo = {
     client.close();
     console.log("MongoDB connection closed");
   },
-  onEvent: function(newCar) {
-    db.insertOne(newCar, function(err, res) {
-      if (err) throw err;
-      console.log("1 car inserted");
-    });
+  onEvent: function(event) {
+    carEvent = JSON.parse(event);
+    if(carEvent.Event_type == "road exit") {
+      db.insertOne(newCar, function(err, res) {
+        if (err) throw err;
+        console.log("1 car inserted");
+      });
+    }
     //---------------------------------------
     // sendMessage(JSON.stringify(newCar));
   },
