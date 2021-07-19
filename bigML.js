@@ -28,31 +28,42 @@ var ML = {
     // on event we predict in which part the car would get out
     onEvent: function(event) { 
         //TODO: need to split 'evnet' between the params and the target
-        car = {'petal length': 1};
+        // const event = {
+        //     "Event type": et,
+        //     "Segment": seg,
+        //     "id" : id,
+        //     "vehicle type": type[vt],
+        //     "Day of the week" : weekdays[dotw-1],
+        //     "Time": time,
+        //     "Special day?": sd
+        // };
+        carEvent = JSON.parse(event);
+        // "60f5547a469a2021609d4a81","road entry",2,0,"Truck","13:24:18",true
+        console.log(carEvent);
 
-        if(model_id != undefined){
-            console.log("model id: "+ model_id);
-            var localModel = new bigml.LocalModel(model_id);
-            localModel.predict(car, function(error, prediction_json) {
-                console.log(prediction_json);
-                console.log(prediction_json.prediction);
-                //after prediction update the confusion matrix using post to server
-                axios.post('http://localhost:3000/updateconfusionMatrix', {
-                    predict: 1,
-                    actual: 1
-                })
-                .then(res => {
-                    console.log(`statusCode: ${res.statusCode}`)
-                    console.log(res)
-                })
-                .catch(error => {
-                    console.error(error)
-                })
-            });
-        }
-        else {
-            // console.error("model has not trained yet!");
-        }
+        // if(model_id != undefined){
+        //     console.log("model id: "+ model_id);
+        //     var localModel = new bigml.LocalModel(model_id);
+        //     localModel.predict(car, function(error, prediction_json) {
+        //         console.log(prediction_json);
+        //         console.log(prediction_json.prediction);
+        //         //after prediction update the confusion matrix using post to server
+        //         axios.post('http://localhost:3000/updateconfusionMatrix', {
+        //             predict: 1,
+        //             actual: 1
+        //         })
+        //         .then(res => {
+        //             console.log(`statusCode: ${res.statusCode}`)
+        //             console.log(res)
+        //         })
+        //         .catch(error => {
+        //             console.error(error)
+        //         })
+        //     });
+        // }
+        // else {
+        //     // console.error("model has not trained yet!");
+        // }
     }
 }
 

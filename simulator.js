@@ -13,13 +13,13 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
     let type = ['Private', 'Comercial', 'Truck']
     // create a JSON object
     const event = {
-        "Event type": et,
+        "Event_type": et,
         "Segment": seg,
         "id" : id,
-        "vehicle type": type[vt],
-        "Day of the week" : weekdays[dotw-1],
+        "vehicle_type": type[vt],
+        "Day_of_the_week" : weekdays[dotw-1],
         "Time": time,
-        "Special day?": sd
+        "Special_day?": sd
     };
 
     kafkaPublisher.publish(event);
