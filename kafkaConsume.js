@@ -11,6 +11,7 @@ const kafkaConf = {
   "sasl.password": "KptXPXeLsncyhA6zZH6m0cYgjSp8Us4O",
   "debug": "generic,broker,security"
 };
+const axios = require('axios');
 
 let observers = [];
 
@@ -30,13 +31,16 @@ consumer.on("error", function(err) {
   console.error(err);
 });
 consumer.on("ready", function(arg) {
-  console.log(`Consumer ${arg.name} for mongoDB and BigML is ready`);
+  axios.post('http://localhost:3000/services', {
+                    service: "consumer",
+                    msg: `Consumer ${arg.name} for mongoDB and BigML is ready`
+                });
   consumer.subscribe(topics);
   consumer.consume();
 });
 
 consumer.on("data", function(m) {
-  // console.log(m.value.toString());
+  console.log(m.value.toString());
   var carParams = JSON.parse(m.value);
   for(var i=0; i<observers.length; i++) {
     // console.log(observers[i]);

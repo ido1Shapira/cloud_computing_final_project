@@ -2,8 +2,7 @@
 
 const uuid = require("uuid");
 const Kafka = require("node-rdkafka");
-const io = require("socket.io-client");
-var socket = io();
+const axios = require('axios');
 
 const kafkaConf = {
   "group.id": "cloudkarafka-example", //check what to put here
@@ -23,9 +22,10 @@ const producer = new Kafka.Producer(kafkaConf);
 const genMessage = m => new Buffer.alloc(m.length,m);
 
 producer.on("ready", function(arg) {
-  console.log(`producer Simulator is ready.`);
-  // send to simulator green light using socket io
-  // socket.emit("simulator", {});
+  axios.post('http://localhost:3000/services', {
+        service: "producer",
+        msg: "producer Simulator is ready"
+    });
 });
 producer.connect();
 

@@ -3,7 +3,7 @@ var bigml = require('bigml');
 var connection = new bigml.BigML('ido1shapira','7e9d42f146576bc3b117ac10bce1799658c35cef')
 var source = new bigml.Source(connection);
 
-var model_id;
+var model_id = null;
 
 var ML = {
     trainModel: function() {
@@ -17,7 +17,6 @@ var ML = {
                             if (!error && modelInfo) {
                                 console.log("model has trained!");
                                 model_id = modelInfo.resource;
-                                // onePrediction({'petal length': 1});
                             }
                         });
                     }
@@ -58,3 +57,8 @@ var ML = {
 }
 
 module.exports = ML;
+
+axios.post('http://localhost:3000/services', {
+        service: "bigML",
+        msg: "bigML is ready"
+});
