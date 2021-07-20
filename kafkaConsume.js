@@ -39,9 +39,9 @@ consumer.on("ready", function(arg) {
   consumer.consume();
 });
 
-consumer.on("data", function(m) {
-  console.log("consumer: " + m.value.toString());
-  var carParams = JSON.parse(m.value);
+consumer.on("data", function(data) {
+  console.log("Consumer: " + data.value.toString());
+  var carParams = JSON.parse(data.value.toString());
   for(var i=0; i<observers.length; i++) {
     // console.log(observers[i]);
     observers[i].onEvent(carParams);

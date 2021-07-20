@@ -1,1832 +1,413 @@
-"_id","Event type","Segment","id","vehicle type","Time","Special day?"
-"60f5533df870a326a8bff506","road entry",2,0,"Truck","13:24:18",true
-"60f553b10d301d2704e93f96","road entry",2,0,"Truck","13:24:18",true
-"60f553da9e91592b18a8e093","road entry",2,0,"Truck","13:24:18",true
-"60f553da9e91592b18a8e094","segment entry",2,0,"Truck","13:24:18",true
-"60f553da9e91592b18a8e095","road entry",5,0,"Truck","13:24:18",true
-"60f554577727ca2e94f5afcf","road entry",2,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a81","road entry",2,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a82","segment entry",2,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a83","road entry",5,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a84","segment entry",5,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a85","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4a86","road exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4a87","road entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4a88","segment entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4a89","road entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4a8a","segment entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4a8b","road entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4a8e","segment entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4a8c","segment entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4a8d","road entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4a8f","road entry",2,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a91","segment exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4a90","segment entry",2,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4a92","road exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4a93","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4a94","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4a95","segment exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4a96","segment enrty",2,,,"13:24:18",true
-"60f5547a469a2021609d4a97","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4a98","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4a99","road entry",4,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4a9b","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4a9a","segment entry",4,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4a9c","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4a9d","road entry",5,0,"Private","13:24:18",true
-"60f5547a469a2021609d4a9e","segment entry",5,0,"Private","13:24:18",true
-"60f5547a469a2021609d4a9f","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4aa0","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4aa1","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4aa2","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4aa3","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4aa4","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4aa5","road entry",5,0,"Private","13:24:18",true
-"60f5547a469a2021609d4aa6","segment entry",5,0,"Private","13:24:18",true
-"60f5547a469a2021609d4aa7","road entry",1,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4aa8","segment entry",1,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4aa9","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4aaa","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4aab","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4aac","segment enrty",2,,,"13:24:18",false
-"60f5547a469a2021609d4aad","road entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4aaf","road entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4aae","segment entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ab0","segment entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ab1","segment exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4ab2","road exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4ab3","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ab4","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ab5","road entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ab6","segment entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ab7","road entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ab8","segment entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ab9","road entry",1,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4aba","segment entry",1,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4abb","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4abc","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4abd","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4abe","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4abf","road entry",1,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4ac0","segment entry",1,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4ac1","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ac2","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ac3","road entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ac4","segment entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ac5","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ac6","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ac7","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4ac8","segment enrty",4,,,"13:24:18",true
-"60f5547a469a2021609d4ac9","road entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4aca","segment entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4acb","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4acc","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4acd","road entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ace","segment entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4acf","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4ad0","segment enrty",4,,,"13:24:18",true
-"60f5547a469a2021609d4ad1","road entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ad2","segment entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ad3","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ad5","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ad4","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4ad6","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ad7","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ad9","road entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4ad8","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ada","segment entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4adb","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4adc","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4add","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4ade","segment enrty",4,,,"13:24:18",true
-"60f5547a469a2021609d4adf","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4ae1","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ae0","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4ae3","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ae2","segment entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ae4","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4ae5","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4ae6","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4ae7","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4ae8","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4ae9","road entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4aec","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4aeb","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4aea","segment entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4aed","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4aee","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4aef","road entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4af0","segment entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4af1","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4af2","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4af3","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4af4","road exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4af5","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4af6","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4af7","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4af8","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4af9","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4afa","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4afb","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4afe","segment entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4afc","road exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4afd","road entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4aff","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b00","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b01","road entry",1,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4b03","road entry",4,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4b02","segment entry",1,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4b04","segment entry",4,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4b08","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b06","segment entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b05","road entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b07","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b09","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b0a","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4b0c","segment entry",2,0,"Private","13:24:18",true
-"60f5547a469a2021609d4b0b","road entry",2,0,"Private","13:24:18",true
-"60f5547a469a2021609d4b0d","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4b10","road exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b0e","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4b0f","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b11","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b12","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b13","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b15","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b14","segment entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b16","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b17","road entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4b19","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b18","segment entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4b1a","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4b1b","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b1c","road exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b1d","road entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b1e","segment entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b1f","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b21","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b20","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4b22","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4b23","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4b24","segment enrty",3,,,"13:24:18",true
-"60f5547a469a2021609d4b25","road entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b26","segment entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b27","road entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b28","segment entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b29","road entry",4,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b2c","segment entry",4,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b2b","road entry",4,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b2a","segment entry",4,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b2d","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4b2e","segment enrty",3,,,"13:24:18",true
-"60f5547a469a2021609d4b2f","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b30","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4b31","road entry",3,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4b32","segment entry",3,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4b33","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b35","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b34","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4b36","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b37","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b38","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b39","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b3a","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b3b","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b3c","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b3d","road entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b3f","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b3e","segment entry",4,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b40","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b41","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b42","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b43","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b44","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b45","segment exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4b46","road exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4b47","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b49","road entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b48","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b4a","segment entry",2,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b4b","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b4c","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b4d","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b4e","road exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b4f","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b50","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b51","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b52","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4b53","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b54","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4b55","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4b56","road exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4b57","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b58","segment enrty",2,,,"13:24:18",false
-"60f5547a469a2021609d4b59","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b5a","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b5b","segment exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4b5c","road exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4b5d","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b5e","segment entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b5f","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b60","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b61","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b62","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b63","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4b65","segment exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4b64","segment enrty",3,,,"13:24:18",true
-"60f5547a469a2021609d4b66","road exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4b67","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b68","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4b69","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b6a","segment enrty",2,,,"13:24:18",false
-"60f5547a469a2021609d4b6b","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b6c","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b6d","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b6e","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b6f","road entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4b70","segment entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4b71","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b72","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b73","road entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b74","segment entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b75","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4b76","segment enrty",2,,,"13:24:18",false
-"60f5547a469a2021609d4b77","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b78","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b79","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b7a","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4b7b","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b7c","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b7d","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4b7e","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4b7f","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4b80","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4b82","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4b81","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4b83","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b84","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b85","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b86","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4b87","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b89","segment exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4b88","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4b8a","road exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4b8b","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b8c","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b8d","road entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4b8e","segment entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4b8f","road entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b90","segment entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b95","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b91","road entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b92","segment entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b94","segment entry",2,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b93","road entry",2,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b96","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b97","road entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b98","segment entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4b99","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b9a","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4b9b","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b9d","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4b9e","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4b9c","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4b9f","road entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4ba0","segment entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4ba1","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ba2","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4ba5","road entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ba3","segment exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4ba4","road exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4ba6","segment entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4ba7","road entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4ba8","segment entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4ba9","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4baa","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4bab","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4bac","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4bad","road entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4bae","segment entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4baf","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bb0","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4bb1","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bb2","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bb4","road exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4bb3","segment exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4bb5","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4bb6","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4bb8","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bb7","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bb9","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bba","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bbb","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4bbc","road exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4bbd","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bbe","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4bbf","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bc0","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4bc1","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bc2","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bc3","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bc4","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bc5","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bc6","segment entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bc7","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4bc8","segment enrty",4,,,"13:24:18",true
-"60f5547a469a2021609d4bc9","road entry",3,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4bca","segment entry",3,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4bcc","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4bcb","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4bcd","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bcf","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bce","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bd0","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bd1","road entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4bd2","segment entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4bd3","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bd4","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bd5","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bd6","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bd7","road entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bd8","segment entry",5,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bd9","road entry",4,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4bda","segment entry",4,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4bdb","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4bdc","road exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4bdd","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bde","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4bdf","road entry",4,0,"Private","13:24:18",true
-"60f5547a469a2021609d4be0","segment entry",4,0,"Private","13:24:18",true
-"60f5547a469a2021609d4be1","road entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4be2","segment entry",5,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4be3","road entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4be4","segment entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4be5","road entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4be6","segment entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4be7","road entry",3,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4be8","segment entry",3,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4be9","road entry",3,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4bea","segment entry",3,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4beb","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4bec","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4bed","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bee","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bef","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bf0","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4bf1","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4bf2","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4bf3","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bf4","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bf5","segment exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4bf6","road exit",3,,,"13:24:18",true
-"60f5547a469a2021609d4bf8","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bf7","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4bf9","segment exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4bfa","road exit",2,,,"13:24:18",true
-"60f5547a469a2021609d4bfb","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bfc","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4bfd","road entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bfe","segment entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4bff","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4c00","road exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4c01","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c02","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c03","road entry",4,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4c04","segment entry",4,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4c05","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4c06","segment enrty",4,,,"13:24:18",false
-"60f5547a469a2021609d4c07","road entry",2,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c08","segment entry",2,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c09","road entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c0a","segment entry",3,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c0e","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c0c","segment entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c0b","road entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c0d","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c0f","road entry",3,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4c10","segment entry",3,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4c11","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4c12","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4c16","segment entry",4,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4c13","road entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c14","segment entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c15","road entry",4,0,"Truck","13:24:18",true
-"60f5547a469a2021609d4c18","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4c17","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4c19","road entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c1a","segment entry",4,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c1b","segment exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4c1c","road exit",1,,,"13:24:18",true
-"60f5547a469a2021609d4c1d","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c1e","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c20","segment entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4c1f","road entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4c21","road entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4c22","segment entry",1,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4c23","road entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c24","segment entry",3,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c25","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4c26","segment enrty",5,,,"13:24:18",false
-"60f5547a469a2021609d4c27","road entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c28","segment entry",1,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c29","road entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c2a","segment entry",2,0,"Private","13:24:18",false
-"60f5547a469a2021609d4c2b","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c2c","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c2d","road entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4c2e","segment entry",3,0,"Comercial","13:24:18",false
-"60f5547a469a2021609d4c2f","road entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4c30","segment entry",3,0,"Private","13:24:18",true
-"60f5547a469a2021609d4c31","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c32","segment entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c33","segment exit",4,,,"13:24:18",true
-"60f5547a469a2021609d4c34","segment enrty",5,,,"13:24:18",true
-"60f5547a469a2021609d4c35","road entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c36","segment entry",5,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c37","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4c38","segment enrty",3,,,"13:24:18",false
-"60f5547a469a2021609d4c3a","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c39","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c3b","road entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4c3c","segment entry",5,0,"Comercial","13:24:18",true
-"60f5547a469a2021609d4c3d","road entry",2,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c3e","segment entry",2,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c3f","segment exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4c40","road exit",3,,,"13:24:18",false
-"60f5547a469a2021609d4c41","segment exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4c44","segment entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c42","road exit",2,,,"13:24:18",false
-"60f5547a469a2021609d4c43","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c46","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c45","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c47","segment exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4c48","road exit",4,,,"13:24:18",false
-"60f5547a469a2021609d4c49","segment exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4c4a","road exit",5,,,"13:24:18",true
-"60f5547a469a2021609d4c4b","segment exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c4c","road exit",5,,,"13:24:18",false
-"60f5547a469a2021609d4c4d","segment exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4c4e","road exit",1,,,"13:24:18",false
-"60f5547a469a2021609d4c4f","road entry",1,0,"Private","13:24:18",true
-"60f5547a469a2021609d4c50","segment entry",1,0,"Private","13:24:18",true
-"60f5547a469a2021609d4c51","road entry",1,0,"Truck","13:24:18",false
-"60f5547a469a2021609d4c52","segment entry",1,0,"Truck","13:24:18",false
-"60f554b48b56700fc022f710","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f711","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f712","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f713","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f714","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f716","road entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f715","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f717","segment entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f718","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f719","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f71a","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f71b","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f71c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f71d","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f71e","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f71f","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f720","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f721","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f722","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f724","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f723","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f725","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f726","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f727","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f728","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f729","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f72b","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f72a","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f72c","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f72d","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f72f","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f72e","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f730","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f731","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f732","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f733","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f734","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f735","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f736","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f737","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f738","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f739","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f73a","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f73c","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f73b","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f73d","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f73e","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f73f","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f740","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f741","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f742","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f743","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f744","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f745","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f748","road entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f746","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f747","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f74a","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f749","segment entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f74b","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f74c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f74d","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f74e","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f74f","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f750","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f752","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f751","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f753","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f754","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f755","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f756","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f757","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f758","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f75a","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f759","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f75c","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f75b","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f75d","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f75e","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f75f","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f760","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f761","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f762","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f763","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f764","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f767","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f765","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f766","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f769","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f768","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f76b","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f76a","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f76c","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f76d","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f76e","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f76f","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f772","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f770","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f771","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f773","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f775","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f774","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f776","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f777","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f778","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f779","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f77b","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f77a","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f77c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f77d","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f77f","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f77e","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f780","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f781","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f783","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f782","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f784","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f785","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f788","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f789","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f78a","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f787","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f786","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f78b","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f78c","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f78d","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f78e","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f790","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f793","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f791","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f78f","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f792","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f794","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f795","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f796","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f797","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f798","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f799","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f79a","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f79b","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f79c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f79d","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f79e","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f79f","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7a0","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f7a1","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f7a3","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f7a2","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7a4","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7a5","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7a6","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7a8","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7a7","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7a9","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7aa","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7ab","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7ac","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7ad","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f7ae","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7af","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7b0","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7b1","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7b2","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7b3","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7b4","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7b5","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7b6","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f7b7","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f7b8","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7b9","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f7ba","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7bd","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7bc","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7bb","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7be","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7bf","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7c0","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f7c1","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f7c2","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7c3","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7c4","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7c5","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7c9","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7c8","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7c7","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f7c6","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f7ca","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7cb","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7cc","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7cd","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7ce","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f7cf","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f7d0","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f7d1","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f7d2","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7d3","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7d4","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7d5","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7d6","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7d7","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7d9","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7d8","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7da","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7db","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7dd","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f7dc","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f7de","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f7df","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f7e1","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7e0","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7e2","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7e3","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7e4","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7e5","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7e8","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7e7","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f7e6","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7e9","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7ea","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7eb","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f7ec","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7ee","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f7ef","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f7ed","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7f0","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7f1","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7f3","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f7f2","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7f4","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7f5","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7f6","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f7f9","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f7f7","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f7f8","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f7fa","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7fc","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7fb","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f7fd","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7fe","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f7ff","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f800","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f802","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f801","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f803","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f804","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f805","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f806","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f807","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f808","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f809","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f80a","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f80c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f80b","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f80d","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f80e","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f80f","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f810","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f811","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f812","road entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f813","segment entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f814","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f816","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f815","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f818","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f817","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f819","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f81c","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f81d","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f81a","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f81b","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f820","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f81f","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f81e","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f821","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f822","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f823","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f824","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f825","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f827","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f826","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f829","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f828","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f82a","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f82b","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f82c","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f82d","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f82e","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f82f","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f831","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f830","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f833","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f834","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f832","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f835","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f836","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f837","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f838","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f839","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f83c","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f83a","road entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f83b","segment entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f83e","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f83d","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f83f","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f840","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f841","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f842","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f843","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f844","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f847","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f848","road entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f845","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f846","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f849","segment entry",2,0,"Private","13:31:16",false
-"60f554b48b56700fc022f84a","road entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f84b","segment entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f84c","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f84d","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f84e","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f84f","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f851","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f850","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f852","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f853","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f854","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f855","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f856","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f857","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f858","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f859","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f85a","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f85b","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f85c","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f85d","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f85e","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f85f","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f860","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f861","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f862","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f863","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f864","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f865","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f866","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f867","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f868","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f869","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f86a","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f86b","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f86c","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f86e","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f86d","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f86f","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f870","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f871","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f872","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f873","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f874","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f875","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f876","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f878","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f877","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f879","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f87a","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f87c","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f87b","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f87d","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f87e","road entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f87f","segment entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f880","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f882","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f881","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f883","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f884","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f885","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f886","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f887","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f888","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f889","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f88a","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f88b","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f88c","road entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f88d","segment entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f88f","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f88e","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f891","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f890","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f892","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f893","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f894","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f895","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f896","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f897","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f89a","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f898","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f89c","road entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f89b","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f89d","segment entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f899","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f89e","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f89f","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8a0","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8a1","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8a5","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8a4","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8a3","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f8a2","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f8a6","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f8a8","road entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8a7","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f8a9","segment entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8aa","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8ad","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f8ae","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f8af","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f8ab","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8ac","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f8b1","segment entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8b2","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8b0","road entry",4,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8b3","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8b4","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8b5","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8b6","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8b8","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8ba","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8b7","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8bb","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8b9","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8bc","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8bd","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8be","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8bf","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8c0","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8c1","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f8c3","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8c6","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f8c5","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8c4","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8c7","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f8c2","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8c8","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8c9","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8ca","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f8cb","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f8cc","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8ce","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8cd","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8cf","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8d0","road entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8d1","segment entry",5,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8d2","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8d3","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8d4","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8d5","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8d6","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8d7","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8d8","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8d9","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8da","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8db","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8dc","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f8dd","segment enrty",2,,,"13:31:16",false
-"60f554b48b56700fc022f8de","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8df","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8e0","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8e2","road entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8e1","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8e3","segment entry",3,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8e5","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8e4","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8e6","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8e7","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8e8","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f8e9","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f8ec","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8eb","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8ea","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8ed","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8ee","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8ef","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8f0","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8f1","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8f2","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8f3","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f8f4","road entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8f5","segment entry",2,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f8f6","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8f7","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8f8","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8fa","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8f9","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f8fb","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8fc","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f8fd","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f8fe","road entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f8ff","segment entry",3,0,"Private","13:31:16",false
-"60f554b48b56700fc022f900","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f901","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f902","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f903","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f904","road entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f905","segment entry",4,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f906","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f908","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f907","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f909","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f90a","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f90b","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f90c","road entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f90f","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f910","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f911","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f90d","segment entry",1,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f913","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f912","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f90e","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f914","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f915","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f916","road entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f917","segment entry",5,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f919","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f91a","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f918","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f91c","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f91b","road exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f91d","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f91e","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f91f","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f921","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f923","segment entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f924","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f922","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f920","road entry",1,0,"Private","13:31:16",false
-"60f554b48b56700fc022f925","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f927","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f926","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f928","road entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f92a","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f92b","segment enrty",5,,,"13:31:16",false
-"60f554b48b56700fc022f929","segment entry",4,0,"Private","13:31:16",false
-"60f554b48b56700fc022f92d","road exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f92c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f92f","segment entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f932","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f92e","road entry",3,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f931","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f930","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f933","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f934","road entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f936","road entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f937","segment entry",2,0,"Truck","13:31:16",false
-"60f554b48b56700fc022f935","segment entry",5,0,"Private","13:31:16",false
-"60f554b48b56700fc022f939","road exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f938","segment exit",5,,,"13:31:16",false
-"60f554b48b56700fc022f93a","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f93b","road exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f93c","segment exit",3,,,"13:31:16",false
-"60f554b48b56700fc022f93d","segment enrty",4,,,"13:31:16",false
-"60f554b48b56700fc022f93f","segment entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f940","segment exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f93e","road entry",1,0,"Comercial","13:31:16",false
-"60f554b48b56700fc022f942","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f943","segment enrty",3,,,"13:31:16",false
-"60f554b48b56700fc022f941","road exit",1,,,"13:31:16",false
-"60f554b48b56700fc022f944","segment exit",2,,,"13:31:16",false
-"60f554b48b56700fc022f946","segment exit",4,,,"13:31:16",false
-"60f554b48b56700fc022f945","road exit",2,,,"13:31:16",false
-"60f55510e069e22198c7b66d","road entry",2,0,"Private","13:32:14",false
-"60f55510e069e22198c7b66e","segment entry",2,0,"Private","13:32:14",false
-"60f55510e069e22198c7b66f","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b670","segment enrty",5,,,"13:33:46",false
-"60f55510e069e22198c7b671","road entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b672","segment entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b673","road entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b674","segment entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b675","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b676","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b677","road entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b678","segment entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b679","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b67a","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b67b","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b67c","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b67d","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b67e","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b67f","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b680","segment enrty",3,,,"13:33:46",false
-"60f55510e069e22198c7b681","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b682","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b683","road entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b684","segment entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b685","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b686","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b687","road entry",5,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b688","segment entry",5,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b689","road entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b68a","segment entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b68b","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b68c","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b68d","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b68e","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b68f","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b690","segment enrty",3,,,"13:33:46",false
-"60f55510e069e22198c7b691","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b692","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b693","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b694","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b695","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b696","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b697","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b698","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b699","road entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b69a","segment entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b69c","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b69b","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b69d","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b69e","segment enrty",5,,,"13:33:46",false
-"60f55510e069e22198c7b69f","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6a0","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6a1","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6a4","segment entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6a5","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6a2","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6a6","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6a3","road entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6a7","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6a8","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6a9","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b6aa","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b6ab","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6ac","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6ae","segment entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6ad","road entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6af","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6b0","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b6b1","road entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6b3","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6b2","segment entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6b4","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6b5","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6b6","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b6b8","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6b7","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6b9","road entry",2,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6ba","segment entry",2,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6bb","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6bc","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6bd","road entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6be","segment entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6bf","road entry",2,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6c0","segment entry",2,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6c2","segment entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6c1","road entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6c3","road entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6c5","road entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6c4","segment entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6c6","segment entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6c7","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b6c8","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b6c9","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6ca","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6cc","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6cb","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6cd","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6ce","segment enrty",3,,,"13:33:46",false
-"60f55510e069e22198c7b6d0","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6cf","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b6d1","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6d2","segment enrty",5,,,"13:33:46",false
-"60f55510e069e22198c7b6d3","road entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6d4","segment entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6d5","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6d6","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6d7","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b6da","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b6d8","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b6db","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6d9","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b6dc","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6dd","road entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6de","segment entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6df","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6e0","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6e1","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6e2","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6e4","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6e3","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6e5","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6e7","road entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6e6","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6e8","segment entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6e9","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6ea","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6eb","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6ec","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b6ed","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6ee","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6ef","road entry",5,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6f0","segment entry",5,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b6f2","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b6f1","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6f4","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6f3","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6f5","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6f6","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b6f7","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6fa","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6f8","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b6f9","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b6fb","road entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6fd","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6fc","segment entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b6fe","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b6ff","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b700","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b701","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b702","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b704","segment enrty",3,,,"13:33:46",false
-"60f55510e069e22198c7b703","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b705","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b706","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b707","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b708","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b709","road entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b70a","segment entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b70b","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b70c","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b70d","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b710","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b70e","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b70f","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b711","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b712","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b713","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b714","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b715","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b716","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b717","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b718","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b719","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b71a","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b71b","road entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b71c","segment entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b71d","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b71f","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b720","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b71e","segment enrty",5,,,"13:33:46",false
-"60f55510e069e22198c7b721","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b722","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b723","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b724","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b725","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b726","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b727","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b728","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b729","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b72a","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b72b","road entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b72c","segment entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b72d","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b72e","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b730","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b72f","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b731","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b732","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b733","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b735","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b734","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b736","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b73a","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b737","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b738","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b739","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b73b","road entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b73c","segment entry",5,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b73e","segment entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b73d","road entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b73f","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b740","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b741","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b742","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b743","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b744","segment enrty",3,,,"13:33:46",false
-"60f55510e069e22198c7b745","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b746","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b747","road entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b748","segment entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b749","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b74a","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b74b","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b74c","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b74d","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b74e","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b74f","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b750","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b751","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b752","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b753","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b754","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b755","road entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b756","segment entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b757","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b758","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b759","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b75a","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b75c","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b75b","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b75d","road entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b75e","segment entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b75f","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b760","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b763","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b761","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b762","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b764","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b766","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b765","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b767","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b768","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b769","road entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b76a","segment entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b76b","road entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b76c","segment entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b76d","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b76f","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b76e","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b770","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b771","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b772","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b773","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b775","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b776","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b774","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b777","road entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b77a","segment entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b77b","road entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b778","segment entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b779","road entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b77c","segment entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b77d","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b77e","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b77f","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b780","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b782","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b781","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b783","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b784","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b785","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b786","road exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b787","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b788","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b789","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b78a","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b78b","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b78c","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b78d","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b78e","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b78f","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b790","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b792","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b791","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b793","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b795","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b794","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b796","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b797","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b798","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b799","road entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b79a","segment entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b79b","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b79e","segment enrty",3,,,"13:33:46",false
-"60f55510e069e22198c7b79c","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b79d","segment exit",2,,,"13:33:46",false
-"60f55510e069e22198c7b7a0","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b79f","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7a1","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7a4","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7a2","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7a3","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7a5","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7a6","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7a8","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7a7","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7aa","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7a9","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7ab","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7ac","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7ad","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7ae","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7b0","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7af","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7b1","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7b2","segment enrty",5,,,"13:33:46",false
-"60f55510e069e22198c7b7b4","segment entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7b5","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7b3","road entry",1,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7b6","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7b7","road entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7b8","segment entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7b9","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7ba","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7bb","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7bc","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7be","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7bf","road entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7bd","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7c0","segment entry",2,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7c1","road entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7c2","segment entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7c6","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b7c4","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7c5","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7c3","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7c7","road entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7c9","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7c8","segment entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7cc","segment entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7ca","road exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7cb","road entry",5,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7cd","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7cf","road entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7ce","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7d0","segment entry",4,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7d1","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7d2","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7d3","road entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7d4","segment entry",4,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7d6","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7d5","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7d7","road entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7d8","segment entry",3,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7d9","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7da","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b7db","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7dc","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7dd","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7e1","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7e2","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7e3","road entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7e0","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7de","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7df","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7e4","segment entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7e5","road entry",2,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7e6","segment entry",2,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7e7","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b7e8","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b7ea","segment entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7e9","road entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7ed","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b7ee","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b7eb","road entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7ec","segment entry",3,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7ef","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7f0","segment enrty",5,,,"13:33:46",false
-"60f55510e069e22198c7b7f1","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7f2","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7f3","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b7f4","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b7f5","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7f8","road exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7f6","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b7f7","segment exit",4,,,"13:33:46",false
-"60f55510e069e22198c7b7f9","road entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7fa","segment entry",3,0,"Truck","13:33:46",false
-"60f55510e069e22198c7b7fb","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7fc","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b7fe","segment entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7fd","road entry",1,0,"Private","13:33:46",false
-"60f55510e069e22198c7b7ff","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b800","segment enrty",4,,,"13:33:46",false
-"60f55510e069e22198c7b802","segment enrty",2,,,"13:33:46",false
-"60f55510e069e22198c7b801","segment exit",1,,,"13:33:46",false
-"60f55510e069e22198c7b803","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b804","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b805","road entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b806","segment entry",1,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b808","road exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b807","segment exit",3,,,"13:33:46",false
-"60f55510e069e22198c7b809","road entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b80a","segment entry",2,0,"Comercial","13:33:46",false
-"60f55510e069e22198c7b80c","segment entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b80b","road entry",4,0,"Private","13:33:46",false
-"60f55510e069e22198c7b80d","segment exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b80e","road exit",5,,,"13:33:46",false
-"60f55510e069e22198c7b80f","road entry",3,0,"Truck","13:33:46",false
-"60f555d7aa66932584af40b7","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40b8","road exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40b9","segment exit",4,,,"13:37:5",true
-"60f555d7aa66932584af40ba","road exit",4,,,"13:37:5",true
-"60f555d7aa66932584af40bb","road entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40bc","segment entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40bd","road entry",2,0,"Private","13:37:5",true
-"60f555d7aa66932584af40be","segment entry",2,0,"Private","13:37:5",true
-"60f555d7aa66932584af40bf","road entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40c0","segment entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40c1","road entry",3,0,"Private","13:37:5",true
-"60f555d7aa66932584af40c2","segment entry",3,0,"Private","13:37:5",true
-"60f555d7aa66932584af40c4","segment entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40c3","road entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40c5","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40c6","road exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40c7","road entry",4,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40c8","segment entry",4,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40c9","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40ca","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40cb","road entry",5,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40ce","segment entry",4,0,"Private","13:37:5",true
-"60f555d7aa66932584af40cc","segment entry",5,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40cd","road entry",4,0,"Private","13:37:5",true
-"60f555d7aa66932584af40cf","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40d1","road entry",2,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40d0","road exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40d2","segment entry",2,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40d3","segment exit",4,,,"13:37:5",true
-"60f555d7aa66932584af40d4","road exit",4,,,"13:37:5",true
-"60f555d7aa66932584af40d5","segment exit",3,,,"13:37:5",true
-"60f555d7aa66932584af40d8","road exit",1,,,"13:37:5",true
-"60f555d7aa66932584af40d6","road exit",3,,,"13:37:5",true
-"60f555d7aa66932584af40d7","segment exit",1,,,"13:37:5",true
-"60f555d7aa66932584af40da","segment entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40d9","road entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40dc","segment entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40db","road entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40dd","road entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40de","segment entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40df","road entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40e0","segment entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40e1","road entry",2,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40e2","segment entry",2,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40e4","segment enrty",3,,,"13:37:5",true
-"60f555d7aa66932584af40e3","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40e5","road entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40e7","road entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af40e6","segment entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40e8","segment entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af40e9","segment exit",4,,,"13:37:5",true
-"60f555d7aa66932584af40ea","segment enrty",5,,,"13:37:5",true
-"60f555d7aa66932584af40eb","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40ec","segment enrty",3,,,"13:37:5",true
-"60f555d7aa66932584af40ee","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40ed","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40ef","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40f0","road exit",2,,,"13:37:5",true
-"60f555d7aa66932584af40f1","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40f2","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40f3","segment exit",3,,,"13:37:5",true
-"60f555d7aa66932584af40f4","road exit",3,,,"13:37:5",true
-"60f555d7aa66932584af40f5","segment exit",1,,,"13:37:5",true
-"60f555d7aa66932584af40f6","road exit",1,,,"13:37:5",true
-"60f555d7aa66932584af40f8","segment entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40f7","road entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af40f9","road entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af40fa","segment entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af40fb","road entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40fc","segment entry",1,0,"Truck","13:37:5",true
-"60f555d7aa66932584af40fd","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40fe","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af40ff","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af4100","segment enrty",3,,,"13:37:5",true
-"60f555d7aa66932584af4101","road entry",4,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4102","segment entry",4,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4103","road entry",3,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4104","segment entry",3,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4105","road entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4109","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af4106","segment entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4107","road entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af4108","segment entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af410a","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af410b","road entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af410c","segment entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af410d","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af410e","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af410f","road entry",2,0,"Private","13:37:5",true
-"60f555d7aa66932584af4110","segment entry",2,0,"Private","13:37:5",true
-"60f555d7aa66932584af4111","road entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4113","segment exit",4,,,"13:37:5",true
-"60f555d7aa66932584af4112","segment entry",1,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af4114","road exit",4,,,"13:37:5",true
-"60f555d7aa66932584af4115","road entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af4116","segment entry",1,0,"Private","13:37:5",true
-"60f555d7aa66932584af4117","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af4118","road exit",2,,,"13:37:5",true
-"60f555d7aa66932584af4119","segment exit",5,,,"13:37:5",true
-"60f555d7aa66932584af411a","road exit",5,,,"13:37:5",true
-"60f555d7aa66932584af411b","road entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af411c","segment entry",2,0,"Comercial","13:37:5",true
-"60f555d7aa66932584af411d","segment exit",2,,,"13:37:5",true
-"60f555d7aa66932584af411e","road exit",2,,,"13:37:5",true
-"60f555d7aa66932584af4120","segment entry",5,0,"Truck","13:37:5",true
-"60f555d7aa66932584af411f","road entry",5,0,"Truck","13:37:5",true
-"60f555d7aa66932584af4121","segment exit",3,,,"13:37:5",true
-"60f555d7aa66932584af4122","road exit",3,,,"13:37:5",true
-"60f555d7aa66932584af4123","segment exit",3,,,"13:37:5",true
-"60f555d7aa66932584af4124","road exit",3,,,"13:37:5",true
-"60f5569e32b3b7187002592a","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b7187002592b","road exit",1,,,"13:37:5",true
-"60f5569e32b3b7187002592c","road entry",1,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002592d","segment entry",1,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002592e","road entry",4,0,"Private","13:37:5",true
-"60f5569e32b3b7187002592f","segment entry",4,0,"Private","13:37:5",true
-"60f5569e32b3b71870025930","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025931","road exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025932","road entry",1,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025933","segment entry",1,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025934","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b71870025936","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025935","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b71870025937","segment enrty",4,,,"13:37:5",true
-"60f5569e32b3b71870025939","road exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025938","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b7187002593a","road entry",4,0,"Private","13:37:5",true
-"60f5569e32b3b7187002593b","segment entry",4,0,"Private","13:37:5",true
-"60f5569e32b3b7187002593c","road entry",4,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002593d","segment entry",4,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002593e","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025940","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b7187002593f","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b71870025941","road exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025942","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b71870025943","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b71870025944","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b71870025945","road exit",1,,,"13:37:5",true
-"60f5569e32b3b71870025946","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025947","road exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025948","road entry",2,0,"Truck","13:37:5",true
-"60f5569e32b3b7187002594a","road entry",1,0,"Private","13:37:5",true
-"60f5569e32b3b71870025949","segment entry",2,0,"Truck","13:37:5",true
-"60f5569e32b3b7187002594b","segment entry",1,0,"Private","13:37:5",true
-"60f5569e32b3b7187002594c","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b7187002594d","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b7187002594e","road entry",2,0,"Private","13:37:5",true
-"60f5569e32b3b7187002594f","segment entry",2,0,"Private","13:37:5",true
-"60f5569e32b3b71870025950","road entry",4,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025951","segment entry",4,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025952","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b71870025954","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025953","segment enrty",2,,,"13:37:5",true
-"60f5569e32b3b71870025955","road exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025956","road entry",4,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025957","segment entry",4,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025958","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b71870025959","segment enrty",2,,,"13:37:5",true
-"60f5569e32b3b7187002595a","road entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002595b","segment entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002595c","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b7187002595e","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b7187002595d","segment enrty",2,,,"13:37:5",true
-"60f5569e32b3b7187002595f","road exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025960","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b71870025961","segment enrty",2,,,"13:37:5",true
-"60f5569e32b3b71870025962","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025963","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b71870025964","road entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025965","segment entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025966","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b71870025968","road entry",4,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025967","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b71870025969","segment entry",4,0,"Truck","13:37:5",true
-"60f5569e32b3b7187002596a","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b7187002596b","road exit",5,,,"13:37:5",true
-"60f5569e32b3b7187002596c","road entry",5,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002596d","segment entry",5,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002596e","road entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b7187002596f","segment entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025970","road entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025972","road entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025971","segment entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025973","segment entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025974","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025975","road exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025976","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025977","road exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025978","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025979","road exit",4,,,"13:37:5",true
-"60f5569e32b3b7187002597a","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b7187002597c","segment exit",2,,,"13:37:5",true
-"60f5569e32b3b7187002597b","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b7187002597d","segment enrty",3,,,"13:37:5",true
-"60f5569e32b3b7187002597e","segment exit",2,,,"13:37:5",true
-"60f5569e32b3b7187002597f","segment enrty",3,,,"13:37:5",true
-"60f5569e32b3b71870025980","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025981","road exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025982","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025983","road exit",3,,,"13:37:5",true
-"60f5569e32b3b71870025984","road entry",2,0,"Private","13:37:5",true
-"60f5569e32b3b71870025986","road entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025985","segment entry",2,0,"Private","13:37:5",true
-"60f5569e32b3b71870025988","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025987","segment entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002598a","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b7187002598b","road exit",1,,,"13:37:5",true
-"60f5569e32b3b7187002598c","road entry",1,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025989","road exit",5,,,"13:37:5",true
-"60f5569e32b3b7187002598e","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b7187002598d","segment entry",1,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025990","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b7187002598f","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b71870025991","road exit",4,,,"13:37:5",true
-"60f5569e32b3b71870025992","road entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025993","segment entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025994","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025995","road exit",5,,,"13:37:5",true
-"60f5569e32b3b71870025998","road entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b71870025997","road exit",5,,,"13:37:5",true
-"60f5569e32b3b7187002599a","road entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025999","segment entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b7187002599b","segment entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b71870025996","segment exit",5,,,"13:37:5",true
-"60f5569e32b3b7187002599c","road entry",5,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002599d","segment entry",5,0,"Comercial","13:37:5",true
-"60f5569e32b3b7187002599f","segment enrty",4,,,"13:37:5",true
-"60f5569e32b3b7187002599e","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b718700259a0","segment exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259a1","segment enrty",3,,,"13:37:5",true
-"60f5569e32b3b718700259a4","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b718700259a3","road exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259a2","segment exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259a5","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b718700259a6","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b718700259a7","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b718700259a8","road entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b718700259a9","segment entry",3,0,"Comercial","13:37:5",true
-"60f5569e32b3b718700259ab","road exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259ac","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259aa","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259ae","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b718700259ad","segment enrty",2,,,"13:37:5",true
-"60f5569e32b3b718700259b0","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259af","segment enrty",4,,,"13:37:5",true
-"60f5569e32b3b718700259b1","road exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259b2","road entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259b3","segment entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259b4","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b718700259b6","segment exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259b5","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b718700259b8","road entry",2,0,"Private","13:37:5",true
-"60f5569e32b3b718700259b7","road exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259b9","segment entry",2,0,"Private","13:37:5",true
-"60f5569e32b3b718700259ba","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b718700259bb","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b718700259bc","road entry",5,0,"Private","13:37:5",true
-"60f5569e32b3b718700259be","road entry",4,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259bd","segment entry",5,0,"Private","13:37:5",true
-"60f5569e32b3b718700259c0","road entry",2,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259bf","segment entry",4,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259c2","road entry",1,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259c1","segment entry",2,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259c3","segment entry",1,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259c4","road entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b718700259c5","segment entry",3,0,"Private","13:37:5",true
-"60f5569e32b3b718700259c6","segment exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259c7","road exit",2,,,"13:37:5",true
-"60f5569e32b3b718700259c8","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b718700259ca","segment exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259c9","segment enrty",5,,,"13:37:5",true
-"60f5569e32b3b718700259cc","road entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259cb","road exit",1,,,"13:37:5",true
-"60f5569e32b3b718700259cd","segment entry",3,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259ce","segment exit",3,,,"13:37:5",true
-"60f5569e32b3b718700259cf","road exit",3,,,"13:37:5",true
-"60f5569e32b3b718700259d1","segment entry",4,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259d0","road entry",4,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259d2","road entry",1,0,"Truck","13:37:5",true
-"60f5569e32b3b718700259d4","segment exit",4,,,"13:37:5",true
-"60f5569e32b3b718700259d3","segment entry",1,0,"Truck","13:37:5",true
-"60f5570f012a6a0f30e02638","segment exit",5,,,"13:42:18",false
-"60f5570f012a6a0f30e02639","road exit",5,,,"13:42:18",false
-"60f5570f012a6a0f30e0263a","road entry",5,0,"Private","13:42:18",false
-"60f5570f012a6a0f30e0263b","segment entry",5,0,"Private","13:42:18",false
-"60f55780a27d821764fc4fa3","segment exit",5,,,"13:42:18",false
-"60f55780a27d821764fc4fa4","road exit",5,,,"13:42:18",false
-"60f55780a27d821764fc4fa5","road entry",5,0,"Private","13:42:18",false
-"60f55780a27d821764fc4fa6","segment entry",5,0,"Private","13:42:18",false
-"60f55780a27d821764fc4fa7","segment exit",5,,,"13:44:11",false
-"60f55780a27d821764fc4fa8","road exit",5,,,"13:44:11",false
-"60f55780a27d821764fc4fa9","segment exit",3,,,"13:44:11",false
-"60f55780a27d821764fc4faa","road exit",3,,,"13:44:11",false
-"60f55780a27d821764fc4fab","segment exit",1,,,"13:44:11",false
-"60f55780a27d821764fc4fac","road exit",1,,,"13:44:11",false
-"60f55783a27d821764fc4fad","segment exit",1,,,"13:44:11",false
-"60f55783a27d821764fc4fae","road exit",1,,,"13:44:11",false
-"60f55786a27d821764fc4faf","road entry",1,0,"Truck","13:44:11",false
-"60f55786a27d821764fc4fb0","segment entry",1,0,"Truck","13:44:11",false
-"60f55787a27d821764fc4fb2","road exit",5,,,"13:44:11",false
-"60f55787a27d821764fc4fb1","segment exit",5,,,"13:44:11",false
-"60f5578ba27d821764fc4fb3","road entry",2,0,"Truck","13:44:11",false
-"60f5578ba27d821764fc4fb4","segment entry",2,0,"Truck","13:44:11",false
-"60f5578ca27d821764fc4fb5","segment exit",5,,,"13:44:11",false
-"60f5578ca27d821764fc4fb6","road exit",5,,,"13:44:11",false
-"60f5578da27d821764fc4fb8","segment entry",1,0,"Private","13:44:11",false
-"60f5578da27d821764fc4fb7","road entry",1,0,"Private","13:44:11",false
-"60f55790a27d821764fc4fba","segment enrty",3,,,"13:44:11",false
-"60f55790a27d821764fc4fb9","segment exit",2,,,"13:44:11",false
-"60f55790a27d821764fc4fbb","segment exit",4,,,"13:44:11",false
-"60f55790a27d821764fc4fbc","road exit",4,,,"13:44:11",false
-"60f55794a27d821764fc4fbd","road entry",1,0,"Private","13:44:11",false
-"60f55794a27d821764fc4fbe","segment entry",1,0,"Private","13:44:11",false
-"60f55795a27d821764fc4fbf","road entry",5,0,"Comercial","13:44:11",false
-"60f55795a27d821764fc4fc0","segment entry",5,0,"Comercial","13:44:11",false
-"60f55795a27d821764fc4fc1","road entry",1,0,"Comercial","13:44:11",false
-"60f55795a27d821764fc4fc3","road entry",4,0,"Truck","13:44:11",false
-"60f55795a27d821764fc4fc2","segment entry",1,0,"Comercial","13:44:11",false
-"60f55795a27d821764fc4fc5","segment exit",5,,,"13:44:11",false
-"60f55795a27d821764fc4fc4","segment entry",4,0,"Truck","13:44:11",false
-"60f55795a27d821764fc4fc6","road exit",5,,,"13:44:11",false
-"60f55798a27d821764fc4fc7","road entry",2,0,"Comercial","13:44:11",false
-"60f55798a27d821764fc4fc8","segment entry",2,0,"Comercial","13:44:11",false
-"60f5579ca27d821764fc4fc9","road entry",5,0,"Truck","13:44:11",false
-"60f5579ca27d821764fc4fca","segment entry",5,0,"Truck","13:44:11",false
-"60f5579da27d821764fc4fcb","road entry",1,0,"Private","13:44:11",false
-"60f5579da27d821764fc4fcc","segment entry",1,0,"Private","13:44:11",false
-"60f557c72ee0711c5c2f2bd3","road entry",1,0,"Private","13:44:11",false
-"60f557c72ee0711c5c2f2bd4","segment entry",1,0,"Private","13:44:11",false
-"60f557c72ee0711c5c2f2bd5","road entry",1,0,"Truck","13:45:22",true
-"60f557c72ee0711c5c2f2bd6","segment entry",1,0,"Truck","13:45:22",true
-"60f557c72ee0711c5c2f2bd7","segment exit",2,,,"13:45:22",true
-"60f557c72ee0711c5c2f2bd8","road exit",2,,,"13:45:22",true
-"60f557c92ee0711c5c2f2bda","segment entry",2,0,"Comercial","13:45:22",true
-"60f557c92ee0711c5c2f2bd9","road entry",2,0,"Comercial","13:45:22",true
-"60f557ce2ee0711c5c2f2bdb","road entry",1,0,"Truck","13:45:22",true
-"60f557ce2ee0711c5c2f2bdc","segment entry",1,0,"Truck","13:45:22",true
-"60f557d32ee0711c5c2f2bde","segment entry",3,0,"Private","13:45:22",true
-"60f557d32ee0711c5c2f2bdd","road entry",3,0,"Private","13:45:22",true
-"60f557d82ee0711c5c2f2be0","segment enrty",5,,,"13:45:22",true
-"60f557d82ee0711c5c2f2bdf","segment exit",4,,,"13:45:22",true
-"60f557db2ee0711c5c2f2be1","segment exit",3,,,"13:45:22",true
-"60f557db2ee0711c5c2f2be2","segment enrty",4,,,"13:45:22",true
-"60f557de2ee0711c5c2f2be3","segment exit",5,,,"13:45:22",true
-"60f557de2ee0711c5c2f2be4","road exit",5,,,"13:45:22",true
-"60f557e32ee0711c5c2f2be6","segment entry",2,0,"Comercial","13:45:22",true
-"60f557e32ee0711c5c2f2be5","road entry",2,0,"Comercial","13:45:22",true
-"60f558847d89292f78840fea","road entry",2,0,"Comercial","13:45:22",true
-"60f558847d89292f78840feb","segment entry",2,0,"Comercial","13:45:22",true
-"60f558847d89292f78840fec","road entry",2,0,"Truck","13:48:30",false
-"60f558847d89292f78840fed","segment entry",2,0,"Truck","13:48:30",false
-"60f558847d89292f78840fee","road entry",5,0,"Private","13:48:30",false
-"60f558847d89292f78840fef","segment entry",5,0,"Private","13:48:30",false
-"60f558847d89292f78840ff0","road entry",1,0,"Truck","13:48:30",false
-"60f558847d89292f78840ff1","segment entry",1,0,"Truck","13:48:30",false
-"60f558b9a59a2f303460c7e4","road entry",2,0,"Comercial","13:45:22",true
-"60f558b9a59a2f303460c7e5","segment entry",2,0,"Comercial","13:45:22",true
-"60f558b9a59a2f303460c7e6","road entry",2,0,"Truck","13:48:30",false
-"60f558b9a59a2f303460c7e7","segment entry",2,0,"Truck","13:48:30",false
-"60f558b9a59a2f303460c7e8","road entry",5,0,"Private","13:48:30",false
-"60f558b9a59a2f303460c7e9","segment entry",5,0,"Private","13:48:30",false
-"60f558b9a59a2f303460c7ea","road entry",1,0,"Truck","13:48:30",false
-"60f558b9a59a2f303460c7eb","segment entry",1,0,"Truck","13:48:30",false
-"60f558b9a59a2f303460c7ec","segment exit",2,,,"13:49:23",false
-"60f558b9a59a2f303460c7ed","segment enrty",3,,,"13:49:23",false
-"60f558b9a59a2f303460c7ee","road entry",1,0,"Comercial","13:49:23",false
-"60f558b9a59a2f303460c7ef","segment entry",1,0,"Comercial","13:49:23",false
-"60f558bea59a2f303460c7f1","segment enrty",3,,,"13:49:23",false
-"60f558bea59a2f303460c7f0","segment exit",2,,,"13:49:23",false
-"60f558c4a59a2f303460c7f3","segment entry",4,0,"Private","13:49:23",false
-"60f558c4a59a2f303460c7f2","road entry",4,0,"Private","13:49:23",false
-"60f558c7a59a2f303460c7f4","road entry",3,0,"Comercial","13:49:23",false
-"60f558c7a59a2f303460c7f5","segment entry",3,0,"Comercial","13:49:23",false
+"_id","vehicle_type","Day_of_the_week","Special_day","Segment"
+"60f68787a53189339c8084aa","Private","Thursday",,2
+"60f687b9a53189339c8084ab","Truck","Thursday",false,3
+"60f687bfa53189339c8084ac","Truck","Thursday",false,5
+"60f687c9a53189339c8084ad","Comercial","Thursday",false,2
+"60f687cda53189339c8084ae","Private","Thursday",false,1
+"60f68b775ec7313e6815a816","Private","Thursday",false,1
+"60f68b775ec7313e6815a817","Truck","Tuesday",false,2
+"60f68b7e5ec7313e6815a818","Private","Tuesday",false,4
+"60f68b995ec7313e6815a819","Truck","Tuesday",false,2
+"60f68bb35ec7313e6815a81a","Truck","Tuesday",false,5
+"60f68ca68c4e5c0fecb9afe8","Truck","Tuesday",false,5
+"60f68ca68c4e5c0fecb9afe9","Comercial","Thursday",true,4
+"60f68ca98c4e5c0fecb9afea","Private","Thursday",true,5
+"60f68caf8c4e5c0fecb9afeb","Truck","Thursday",true,1
+"60f68cc18c4e5c0fecb9afec","Private","Thursday",true,2
+"60f68dfe50098f24086d54a7","Private","Saturday",false,1
+"60f68e0850098f24086d54a8","Comercial","Saturday",false,4
+"60f68face24fe212ac33e4c9","Comercial","Thursday",false,4
+"60f68fb5e24fe212ac33e4ca","Private","Thursday",false,1
+"60f68fc3e24fe212ac33e4cb","Comercial","Thursday",false,5
+"60f68fc9e24fe212ac33e4cc","Private","Thursday",false,4
+"60f68feee24fe212ac33e4cd","Truck","Thursday",false,5
+"60f68ffce24fe212ac33e4ce","Truck","Thursday",false,3
+"60f6900ce24fe212ac33e4cf","Comercial","Thursday",false,3
+"60f6901ee24fe212ac33e4d0","Private","Thursday",false,4
+"60f69020e24fe212ac33e4d1","Truck","Thursday",false,5
+"60f6902ce24fe212ac33e4d2","Comercial","Thursday",false,1
+"60f69030e24fe212ac33e4d3","Comercial","Thursday",false,3
+"60f69515475f74255072510b","Comercial","Thursday",false,3
+"60f69515475f74255072510c","Truck","Tuesday",false,4
+"60f69515475f74255072510d","Comercial","Tuesday",false,1
+"60f69579d22d6f3d0892a80f","Truck","Thursday",false,2
+"60f6959ca924551fd0411db2","Truck","Saturday",false,5
+"60f695a1a924551fd0411db3","Comercial","Saturday",false,5
+"60f695a9a924551fd0411db4","Private","Saturday",false,4
+"60f695be2b9d251ad85e92de","Private","Tuesday",false,1
+"60f695cd2b9d251ad85e92df","Truck","Tuesday",false,4
+"60f695d32b9d251ad85e92e0","Comercial","Tuesday",false,1
+"60f695db2b9d251ad85e92e1","Truck","Tuesday",false,5
+"60f695f92b9d251ad85e92e2","Comercial","Tuesday",false,4
+"60f695fc2b9d251ad85e92e3","Truck","Tuesday",false,2
+"60f696df04d62d1d849a59d5","Truck","Monday",false,3
+"60f696f004d62d1d849a59d6","Private","Monday",false,5
+"60f696fb04d62d1d849a59d7","Comercial","Monday",false,5
+"60f6970004d62d1d849a59d8","Comercial","Monday",false,2
+"60f6970704d62d1d849a59d9","Private","Monday",false,1
+"60f6970c04d62d1d849a59da","Comercial","Monday",false,4
+"60f6976f885d4e3d34712d40","Comercial","Sunday",false,2
+"60f69775885d4e3d34712d41","Truck","Sunday",false,5
+"60f69795a0baf52e48c1fe01","Private","Wednesday",false,5
+"60f697a1a0baf52e48c1fe02","Private","Wednesday",false,5
+"60f697a7a0baf52e48c1fe03","Truck","Wednesday",false,3
+"60f697b2a0baf52e48c1fe04","Truck","Wednesday",false,5
+"60f697c7a0baf52e48c1fe05","Comercial","Wednesday",false,1
+"60f697d6a0baf52e48c1fe06","Truck","Wednesday",false,1
+"60f697d8a0baf52e48c1fe07","Private","Wednesday",false,4
+"60f697daa0baf52e48c1fe08","Private","Wednesday",false,2
+"60f697e0a0baf52e48c1fe09","Comercial","Wednesday",false,5
+"60f698679eba7e25b89ae3bf","Comercial","Wednesday",false,5
+"60f698679eba7e25b89ae3c0","Private","Sunday",false,5
+"60f6986a9eba7e25b89ae3c1","Truck","Sunday",false,1
+"60f698779eba7e25b89ae3c2","Comercial","Sunday",false,3
+"60f698809eba7e25b89ae3c3","Private","Sunday",false,5
+"60f698879eba7e25b89ae3c4","Truck","Sunday",false,5
+"60f698949eba7e25b89ae3c5","Private","Sunday",false,2
+"60f698ebd37d52335c01b0a4","Comercial","Thursday",true,5
+"60f698edd37d52335c01b0a5","Truck","Thursday",true,2
+"60f698f2d37d52335c01b0a6","Truck","Thursday",true,3
+"60f698f4d37d52335c01b0a7","Private","Thursday",true,4
+"60f6993216941e3298c052f0","Truck","Thursday",true,1
+"60f6993416941e3298c052f1","Comercial","Sunday",false,5
+"60f6994416941e3298c052f2","Private","Sunday",false,4
+"60f6994a16941e3298c052f3","Truck","Thursday",true,1
+"60f6994f16941e3298c052f4","Private","Thursday",true,5
+"60f6996316941e3298c052f5","Private","Thursday",true,5
+"60f6996616941e3298c052f6","Private","Sunday",false,2
+"60f6997116941e3298c052f7","Truck","Sunday",false,1
+"60f6997816941e3298c052f8","Comercial","Sunday",false,3
+"60f6997b16941e3298c052f9","Truck","Sunday",false,5
+"60f6998516941e3298c052fa","Comercial","Thursday",true,4
+"60f6999016941e3298c052fb","Private","Thursday",true,2
+"60f699ad16941e3298c052fc","Truck","Sunday",false,5
+"60f69a21ae858c24b054c45d","Private","Sunday",false,3
+"60f69a23ae858c24b054c45e","Comercial","Sunday",false,5
+"60f69a26ae858c24b054c45f","Comercial","Sunday",false,2
+"60f69a2bae858c24b054c460","Truck","Sunday",false,4
+"60f69a3eae858c24b054c461","Comercial","Sunday",false,1
+"60f69a50ae858c24b054c462","Truck","Sunday",false,2
+"60f69a51ae858c24b054c463","Private","Sunday",false,5
+"60f69a5cae858c24b054c464","Truck","Sunday",false,5
+"60f69a72ae858c24b054c465","Truck","Sunday",false,5
+"60f69a81ae858c24b054c466","Comercial","Sunday",false,5
+"60f69a87ae858c24b054c467","Truck","Sunday",false,5
+"60f69b09b47adc17d8306167","Private","Sunday",false,1
+"60f69b0fb47adc17d8306168","Truck","Sunday",false,3
+"60f69b1fb47adc17d8306169","Comercial","Sunday",false,4
+"60f69b40b47adc17d830616a","Private","Sunday",false,5
+"60f69b42b47adc17d830616b","Truck","Sunday",false,1
+"60f69b48b47adc17d830616c","Private","Sunday",false,5
+"60f69b4fb47adc17d830616d","Truck","Sunday",false,3
+"60f69b52b47adc17d830616e","Truck","Sunday",false,5
+"60f69b54b47adc17d830616f","Private","Sunday",false,2
+"60f69b56b47adc17d8306170","Truck","Sunday",false,2
+"60f69ba440447206c04828b4","Truck","Saturday",false,2
+"60f69bc540447206c04828b5","Comercial","Saturday",false,3
+"60f69bcd40447206c04828b6","Comercial","Saturday",false,4
+"60f69bdd40447206c04828b7","Truck","Saturday",false,3
+"60f69be440447206c04828b8","Private","Saturday",false,5
+"60f69c0840447206c04828b9","Private","Saturday",false,4
+"60f69c1640447206c04828ba","Truck","Saturday",false,5
+"60f69c92dac1da13680c73ff","Private","Tuesday",false,3
+"60f69c97dac1da13680c7400","Truck","Tuesday",false,4
+"60f69d0804d83a39b059b773","Private","Friday",false,2
+"60f69d1304d83a39b059b774","Private","Friday",false,4
+"60f69d2404d83a39b059b775","Private","Friday",false,3
+"60f69d3004d83a39b059b776","Private","Friday",false,4
+"60f69d3804d83a39b059b777","Private","Friday",false,4
+"60f69d3d04d83a39b059b778","Private","Friday",false,5
+"60f69d4904d83a39b059b779","Truck","Friday",false,1
+"60f69d5504d83a39b059b77a","Comercial","Friday",false,3
+"60f69d5704d83a39b059b77b","Private","Friday",false,5
+"60f69d5f04d83a39b059b77c","Truck","Friday",false,3
+"60f69d6704d83a39b059b77d","Private","Friday",false,4
+"60f69d8304d83a39b059b77e","Truck","Friday",false,2
+"60f69d8c04d83a39b059b77f","Private","Friday",false,5
+"60f69d9004d83a39b059b780","Private","Friday",false,2
+"60f69d9504d83a39b059b781","Truck","Friday",false,5
+"60f69d9f04d83a39b059b782","Private","Friday",false,4
+"60f69dad04d83a39b059b783","Truck","Friday",false,4
+"60f69daf04d83a39b059b784","Truck","Friday",false,1
+"60f69db504d83a39b059b785","Private","Friday",false,5
+"60f69e1b56ff393b948a7bca","Private","Thursday",false,1
+"60f69e3a56ff393b948a7bcb","Comercial","Thursday",false,2
+"60f69e3e56ff393b948a7bcc","Private","Thursday",false,1
+"60f69e4456ff393b948a7bcd","Truck","Thursday",false,5
+"60f69fb74ab5211bd0fc1958","Truck","Tuesday",false,3
+"60f69fb74ab5211bd0fc1959","Truck","Tuesday",false,2
+"60f69fb74ab5211bd0fc195a","Comercial","Tuesday",false,4
+"60f69fbb4ab5211bd0fc195b","Comercial","Tuesday",false,2
+"60f69fc24ab5211bd0fc195c","Comercial","Tuesday",false,5
+"60f69ffdaefa3533ac15625e","Truck","Monday",true,4
+"60f6a054d139d30bf8e91cfd","Truck","Monday",true,4
+"60f6a0f9c786393998746c03","Truck","Tuesday",false,1
+"60f6a0f9c786393998746c04","Truck","Tuesday",false,4
+"60f6a10ec786393998746c05","Private","Tuesday",false,1
+"60f6a120c786393998746c06","Truck","Tuesday",false,3
+"60f6a122c786393998746c07","Comercial","Tuesday",false,3
+"60f6a12ac786393998746c08","Private","Tuesday",false,5
+"60f6a140c786393998746c09","Private","Tuesday",false,5
+"60f6a22f1165382710c13c76","Comercial","Sunday",true,2
+"60f6a2321165382710c13c77","Comercial","Sunday",true,5
+"60f6a2ada47ecb1d24e738b3","Truck","Monday",false,3
+"60f6a2bea47ecb1d24e738b4","Private","Monday",false,2
+"60f6a2c7a47ecb1d24e738b5","Comercial","Monday",false,5
+"60f6a2e1a47ecb1d24e738b6","Private","Monday",false,5
+"60f6a2e6a47ecb1d24e738b7","Comercial","Monday",false,2
+"60f6a2e9a47ecb1d24e738b8","Private","Monday",false,1
+"60f6a2f0a47ecb1d24e738b9","Truck","Monday",false,1
+"60f6a2fca47ecb1d24e738ba","Private","Monday",false,4
+"60f6a30966360825507a3aeb","Comercial","Thursday",false,5
+"60f6a31766360825507a3aec","Comercial","Thursday",false,5
+"60f6a31866360825507a3aed","Comercial","Thursday",false,3
+"60f6a38fd1ac6609045a2bad","Comercial","Thursday",false,5
+"60f6a38fd1ac6609045a2bae","Comercial","Thursday",false,3
+"60f6a391d1ac6609045a2baf","Truck","Sunday",false,5
+"60f6a42ff35d6d23b8ca6d7c","Private","Sunday",true,3
+"60f6a469793f913144083aaf","Comercial","Sunday",false,3
+"60f6a46b793f913144083ab0","Truck","Sunday",false,1
+"60f6a484793f913144083ab1","Private","Sunday",false,3
+"60f6a496c3620f31788c0522","Comercial","Saturday",false,4
+"60f6a49ac3620f31788c0523","Comercial","Saturday",false,4
+"60f6a4b3c3620f31788c0524","Private","Saturday",false,3
+"60f6a4bcc3620f31788c0525","Truck","Saturday",false,1
+"60f6a4c6c3620f31788c0526","Private","Saturday",false,1
+"60f6a4cfc3620f31788c0527","Private","Saturday",false,3
+"60f6a4d2c3620f31788c0528","Truck","Saturday",false,4
+"60f6a4dac3620f31788c0529","Truck","Saturday",false,5
+"60f6a4dfc3620f31788c052a","Comercial","Saturday",false,3
+"60f6a4f2c3620f31788c052b","Private","Saturday",false,5
+"60f6a504c3620f31788c052c","Comercial","Saturday",false,1
+"60f6a50ac3620f31788c052d","Comercial","Saturday",false,4
+"60f6a510c3620f31788c052e","Truck","Saturday",false,5
+"60f6a516c3620f31788c052f","Truck","Saturday",false,3
+"60f6a520c3620f31788c0530","Truck","Saturday",false,2
+"60f6a528c3620f31788c0531","Private","Saturday",false,2
+"60f6a52ac3620f31788c0532","Private","Saturday",false,5
+"60f6a53ec3620f31788c0533","Private","Saturday",false,2
+"60f6a544c3620f31788c0534","Private","Saturday",false,4
+"60f6a600dc9e162d34c5faa9","Truck","Monday",false,5
+"60f6a606dc9e162d34c5faaa","Truck","Monday",false,3
+"60f6a60edc9e162d34c5faab","Truck","Monday",false,4
+"60f6a633dc9e162d34c5faac","Private","Monday",false,1
+"60f6a63bdc9e162d34c5faad","Comercial","Monday",false,5
+"60f6a63edc9e162d34c5faae","Truck","Monday",false,2
+"60f6a64f1412ea07807c67ed","Truck","Monday",false,2
+"60f6a64f1412ea07807c67ee","Private","Monday",false,1
+"60f6a69e26559c155cf8cec5","Truck","Monday",false,2
+"60f6a69e26559c155cf8cec6","Private","Monday",false,1
+"60f6a69e26559c155cf8cec7","Truck","Saturday",false,1
+"60f6a6c02a9fe018b4e707de","Truck","Monday",false,2
+"60f6a6c02a9fe018b4e707df","Private","Monday",false,1
+"60f6a6c02a9fe018b4e707e0","Truck","Saturday",false,1
+"60f6a6c12a9fe018b4e707e1","Private","Sunday",true,5
+"60f6a6c72a9fe018b4e707e2","Comercial","Sunday",true,5
+"60f6a6cb2a9fe018b4e707e3","Private","Wednesday",false,4
+"60f6a6cc2a9fe018b4e707e4","Truck","Sunday",true,1
+"60f6a83f2fae732c60f3efd1","Private","Sunday",false,3
+"60f6a85eb12cd9154c2b8f92","Truck","Monday",false,5
+"60f6a85eb12cd9154c2b8f93","Comercial","Monday",false,2
+"60f6a869b12cd9154c2b8f94","Truck","Monday",false,3
+"60f6a94505be3a1f58628ec2","Truck","Tuesday",false,4
+"60f6a94905be3a1f58628ec3","Private","Tuesday",false,3
+"60f6a9537acf430edc5e2a13","Private","Tuesday",false,3
+"60f6a963e3ea263070f0b1e0","Comercial","Friday",false,4
+"60f6a966e3ea263070f0b1e1","Truck","Friday",false,5
+"60f6a969e3ea263070f0b1e2","Private","Friday",false,1
+"60f6a977cffb9710c0c2f6fb","Private","Monday",true,5
+"60f6a97dcffb9710c0c2f6fc","Private","Monday",true,4
+"60f6a986cffb9710c0c2f6fd","Comercial","Monday",true,4
+"60f6a9f1b720a205c83a54a8","Private","Wednesday",false,4
+"60f6aa015bb25d3200c8fa52","Private","Wednesday",false,4
+"60f6aa025bb25d3200c8fa53","Comercial","Wednesday",false,5
+"60f6aa0c5bb25d3200c8fa54","Truck","Wednesday",false,4
+"60f6aa115bb25d3200c8fa55","Truck","Wednesday",false,5
+"60f6aa165bb25d3200c8fa56","Private","Wednesday",false,2
+"60f6aa225bb25d3200c8fa57","Private","Wednesday",false,1
+"60f6aa2d5bb25d3200c8fa58","Truck","Wednesday",false,1
+"60f6aa445bb25d3200c8fa59","Private","Wednesday",false,1
+"60f6aa4a5bb25d3200c8fa5a","Private","Wednesday",false,1
+"60f6ab52082eb10874ac0448","Truck","Friday",false,5
+"60f6ab62082eb10874ac0449","Comercial","Friday",false,2
+"60f6ab67082eb10874ac044a","Comercial","Friday",false,5
+"60f6ab70082eb10874ac044b","Comercial","Friday",false,3
+"60f6ab865da24739fc85a19b","Private","Tuesday",false,4
+"60f6ab865da24739fc85a19c","Private","Tuesday",false,2
+"60f6ab8f5da24739fc85a19d","Truck","Tuesday",false,5
+"60f6ab925da24739fc85a19e","Truck","Tuesday",false,2
+"60f6ab9d889fd01cc8ecc054","Truck","Tuesday",false,2
+"60f6ab9e889fd01cc8ecc055","Private","Monday",false,4
+"60f6aba1889fd01cc8ecc056","Truck","Monday",false,2
+"60f6ac16e3c55e212037a008","Comercial","Saturday",true,3
+"60f6ac16e3c55e212037a009","Private","Saturday",true,4
+"60f6ac17e3c55e212037a00a","Private","Saturday",true,3
+"60f6ac27e3c55e212037a00b","Truck","Saturday",true,3
+"60f6ac75f168f939b07ed8d7","Truck","Saturday",true,3
+"60f6ac75f168f939b07ed8d8","Comercial","Saturday",false,4
+"60f6ac7af168f939b07ed8d9","Private","Saturday",false,3
+"60f6ac7ff168f939b07ed8da","Truck","Saturday",false,3
+"60f6ac85f168f939b07ed8db","Truck","Saturday",false,5
+"60f6ac8ff168f939b07ed8dc","Truck","Saturday",false,3
+"60f6ac9af168f939b07ed8dd","Private","Saturday",false,5
+"60f6ac9df168f939b07ed8de","Comercial","Saturday",false,5
+"60f6aca5f168f939b07ed8df","Comercial","Saturday",false,4
+"60f6aca9f168f939b07ed8e0","Comercial","Saturday",false,3
+"60f6acd3fe93053e08ff79e2","Comercial","Tuesday",false,2
+"60f6ad0db4842b0824eab417","Comercial","Friday",false,5
+"60f6ad0eb4842b0824eab418","Private","Friday",false,3
+"60f6ad90fe8ab31b9014dc88","Truck","Sunday",false,1
+"60f6ad90fe8ab31b9014dc89","Truck","Sunday",false,5
+"60f6ad91fe8ab31b9014dc8a","Truck","Sunday",false,5
+"60f6af94e619b51da0274703","Private","Monday",true,3
+"60f6af98e619b51da0274704","Comercial","Monday",true,4
+"60f6afc7e70b121b8871d5e4","Comercial","Saturday",true,3
+"60f6afd8e70b121b8871d5e5","Truck","Saturday",true,5
+"60f6afdde70b121b8871d5e6","Comercial","Saturday",true,4
+"60f6afece70b121b8871d5e7","Comercial","Saturday",true,5
+"60f6affbe70b121b8871d5e8","Comercial","Saturday",true,2
+"60f6b015e70b121b8871d5e9","Comercial","Saturday",true,5
+"60f6b018e70b121b8871d5ea","Comercial","Saturday",true,2
+"60f6b01fe70b121b8871d5eb","Truck","Saturday",true,3
+"60f6b029e70b121b8871d5ec","Private","Saturday",true,3
+"60f6b02ce70b121b8871d5ed","Private","Saturday",true,2
+"60f6b032e70b121b8871d5ee","Comercial","Saturday",true,1
+"60f6b1765d372930841716c3","Comercial","Saturday",false,5
+"60f6b1845d372930841716c4","Private","Saturday",false,1
+"60f6b1975d372930841716c5","Comercial","Saturday",false,3
+"60f6b1a55d372930841716c6","Private","Saturday",false,2
+"60f6b1ae5d372930841716c7","Truck","Saturday",false,4
+"60f6b1b45d372930841716c8","Comercial","Saturday",false,1
+"60f6b21805659308d875827c","Private","Sunday",false,5
+"60f6b21d05659308d875827d","Private","Sunday",false,3
+"60f6b22a05659308d875827e","Truck","Sunday",false,3
+"60f6b237248dbd206c4b8cb0","Truck","Sunday",false,3
+"60f6b272248dbd206c4b8cb1","Private","Saturday",false,5
+"60f6b285248dbd206c4b8cb2","Comercial","Saturday",false,4
+"60f6b28e248dbd206c4b8cb3","Comercial","Saturday",false,5
+"60f6b295248dbd206c4b8cb4","Private","Saturday",false,5
+"60f6b2aa248dbd206c4b8cb5","Truck","Saturday",false,3
+"60f6b2be248dbd206c4b8cb6","Truck","Saturday",false,5
+"60f6b2d2248dbd206c4b8cb7","Truck","Saturday",false,2
+"60f6b30d248dbd206c4b8cb8","Private","Saturday",false,1
+"60f6b329248dbd206c4b8cb9","Private","Saturday",false,5
+"60f6b345248dbd206c4b8cba","Private","Saturday",false,4
+"60f6b357248dbd206c4b8cbb","Truck","Saturday",false,3
+"60f6b35c248dbd206c4b8cbc","Truck","Saturday",false,5
+"60f6b371248dbd206c4b8cbd","Truck","Saturday",false,1
+"60f6b38d248dbd206c4b8cbe","Comercial","Saturday",false,2
+"60f6b3a7248dbd206c4b8cbf","Truck","Saturday",false,4
+"60f6b3b0248dbd206c4b8cc0","Comercial","Saturday",false,2
+"60f6b3b4248dbd206c4b8cc1","Comercial","Saturday",false,4
+"60f6b3c0248dbd206c4b8cc2","Comercial","Saturday",false,2
+"60f6b3d5248dbd206c4b8cc3","Truck","Saturday",false,4
+"60f6b3e2248dbd206c4b8cc4","Comercial","Saturday",false,1
+"60f6b3e6248dbd206c4b8cc5","Private","Saturday",false,5
+"60f6b3e8248dbd206c4b8cc6","Private","Saturday",false,1
+"60f6b414248dbd206c4b8cc7","Truck","Saturday",false,3
+"60f6b41a248dbd206c4b8cc8","Comercial","Saturday",false,2
+"60f6b426248dbd206c4b8cc9","Private","Saturday",false,4
+"60f6b439248dbd206c4b8cca","Private","Saturday",false,1
+"60f6b445248dbd206c4b8ccb","Truck","Saturday",false,5
+"60f6b44d248dbd206c4b8ccc","Private","Saturday",false,3
+"60f6b46c248dbd206c4b8ccd","Private","Saturday",false,4
+"60f6b46f248dbd206c4b8cce","Truck","Saturday",false,3
+"60f6b478248dbd206c4b8ccf","Private","Saturday",false,4
+"60f6b47d248dbd206c4b8cd0","Truck","Saturday",false,5
+"60f6b487248dbd206c4b8cd1","Private","Saturday",false,3
+"60f6b48a248dbd206c4b8cd2","Truck","Saturday",false,3
+"60f6b494248dbd206c4b8cd3","Comercial","Saturday",false,5
+"60f6b4a8248dbd206c4b8cd4","Comercial","Saturday",false,1
+"60f6b4b0248dbd206c4b8cd5","Private","Saturday",false,5
+"60f6b4b9248dbd206c4b8cd6","Comercial","Saturday",false,3
+"60f6b4c5248dbd206c4b8cd7","Truck","Saturday",false,4
+"60f6b4c9248dbd206c4b8cd8","Private","Saturday",false,5
+"60f6b4d3248dbd206c4b8cd9","Private","Saturday",false,1
+"60f6b4d8248dbd206c4b8cda","Comercial","Saturday",false,5
+"60f6b4dd248dbd206c4b8cdb","Private","Saturday",false,4
+"60f6b4f3248dbd206c4b8cdc","Truck","Saturday",false,5
+"60f6b4ffa06f2406cc587fd2","Truck","Saturday",false,5
+"60f6b4ffa06f2406cc587fd3","Truck","Monday",false,5
+"60f6b515a06f2406cc587fd4","Truck","Monday",false,2
+"60f6b51aa06f2406cc587fd5","Comercial","Monday",false,5
+"60f6b51da06f2406cc587fd6","Private","Monday",false,2
+"60f6b551a06f2406cc587fd7","Truck","Monday",false,4
+"60f6b558a06f2406cc587fd8","Comercial","Monday",false,2
+"60f6b563a06f2406cc587fd9","Truck","Monday",false,4
+"60f6b56da06f2406cc587fda","Truck","Monday",false,3
+"60f6b572a06f2406cc587fdb","Private","Monday",false,5
+"60f6b577a06f2406cc587fdc","Private","Monday",false,5
+"60f6b585a06f2406cc587fdd","Truck","Monday",false,5
+"60f6b58ba06f2406cc587fde","Comercial","Monday",false,4
+"60f6b591a06f2406cc587fdf","Truck","Monday",false,5
+"60f6b59fa06f2406cc587fe0","Private","Monday",false,4
+"60f6b5bca06f2406cc587fe1","Comercial","Monday",false,2
+"60f6b5d9d7e60b0f3c139236","Comercial","Thursday",false,5
+"60f6b5e9d7e60b0f3c139237","Truck","Thursday",false,1
+"60f6b5ead7e60b0f3c139238","Comercial","Thursday",false,2
+"60f6b5f6d7e60b0f3c139239","Truck","Thursday",false,2
+"60f6b616d7e60b0f3c13923a","Truck","Thursday",false,3
+"60f6b619d7e60b0f3c13923b","Comercial","Thursday",false,5
+"60f6b620d7e60b0f3c13923c","Private","Thursday",false,5
+"60f6b625d7e60b0f3c13923d","Comercial","Thursday",false,1
+"60f6b62bd7e60b0f3c13923e","Comercial","Thursday",false,5
+"60f6b630d7e60b0f3c13923f","Private","Thursday",false,5
+"60f6b63ad7e60b0f3c139240","Truck","Thursday",false,3
+"60f6b646d7e60b0f3c139241","Truck","Thursday",false,3
+"60f6b64cd7e60b0f3c139242","Private","Thursday",false,5
+"60f6b652d7e60b0f3c139243","Truck","Thursday",false,5
+"60f6b654d7e60b0f3c139244","Private","Thursday",false,2
+"60f6b66dd7e60b0f3c139245","Truck","Thursday",false,5
+"60f6b670d7e60b0f3c139246","Comercial","Thursday",false,5
+"60f6b674d7e60b0f3c139247","Private","Thursday",false,4
+"60f6b67fd7e60b0f3c139248","Private","Thursday",false,5
+"60f6b69fd7e60b0f3c139249","Comercial","Thursday",false,5
+"60f6b6a4d7e60b0f3c13924a","Comercial","Thursday",false,3
+"60f6b6b7d7e60b0f3c13924b","Truck","Thursday",false,4
+"60f6b6bad7e60b0f3c13924c","Private","Thursday",false,3
+"60f6b6c3d7e60b0f3c13924d","Private","Thursday",false,1
+"60f6b6c9d7e60b0f3c13924e","Private","Thursday",false,3
+"60f6b6cbd7e60b0f3c13924f","Truck","Thursday",false,3
+"60f6b6dcd7e60b0f3c139250","Comercial","Thursday",false,1
+"60f6b6e5d7e60b0f3c139251","Truck","Thursday",false,5
+"60f6b6ebd7e60b0f3c139252","Truck","Thursday",false,1
+"60f6b70f0719b92a703a4669","Private","Wednesday",false,4
+"60f6b7120719b92a703a466a","Private","Wednesday",false,5
+"60f6b7180719b92a703a466b","Truck","Wednesday",false,1
+"60f6b7280719b92a703a466c","Comercial","Wednesday",false,5
+"60f6b7310719b92a703a466d","Truck","Wednesday",false,5
+"60f6b7350719b92a703a466e","Private","Wednesday",false,2
+"60f6b73a0719b92a703a466f","Private","Wednesday",false,2
+"60f6b73e0719b92a703a4670","Comercial","Wednesday",false,5
+"60f6b7470719b92a703a4671","Comercial","Wednesday",false,2
+"60f6b74f0719b92a703a4672","Comercial","Wednesday",false,5
+"60f6b7540719b92a703a4673","Comercial","Wednesday",false,3
+"60f6b76a0719b92a703a4674","Comercial","Wednesday",false,4
+"60f6b77f0719b92a703a4675","Truck","Wednesday",false,4
+"60f6b7890719b92a703a4676","Private","Wednesday",false,3
+"60f6b78e0719b92a703a4677","Private","Wednesday",false,4
+"60f6b7b30719b92a703a4678","Truck","Wednesday",false,5
+"60f6b7df0719b92a703a4679","Private","Wednesday",false,1
+"60f6b7e60719b92a703a467a","Truck","Wednesday",false,3
+"60f6b7f50719b92a703a467b","Comercial","Wednesday",false,5
+"60f6b7fb0719b92a703a467c","Private","Wednesday",false,3
+"60f6b80c0719b92a703a467d","Truck","Wednesday",false,1
+"60f6b8290719b92a703a467e","Comercial","Wednesday",false,2
+"60f6b8380719b92a703a467f","Comercial","Wednesday",false,3
+"60f6b83f0719b92a703a4680","Private","Wednesday",false,5
+"60f6b8450719b92a703a4681","Truck","Wednesday",false,3
+"60f6b84a0719b92a703a4682","Private","Wednesday",false,2
+"60f6b86724dd1317d84115ce","Private","Thursday",false,1
+"60f6b86d24dd1317d84115cf","Truck","Thursday",false,5
+"60f6b87424dd1317d84115d0","Truck","Thursday",false,3
+"60f6b87e24dd1317d84115d1","Comercial","Thursday",false,4
+"60f6b88324dd1317d84115d2","Private","Thursday",false,5
+"60f6b8c1fdd62c30e8c5536b","Private","Thursday",false,5
+"60f6b8c2fdd62c30e8c5536c","Comercial","Tuesday",false,3
+"60f6b8cafdd62c30e8c5536d","Comercial","Tuesday",false,4
+"60f6b8ccfdd62c30e8c5536e","Truck","Tuesday",false,4
+"60f6b8cefdd62c30e8c5536f","Truck","Tuesday",false,4
+"60f6b8dffdd62c30e8c55370","Truck","Tuesday",false,5
+"60f6b8e6fdd62c30e8c55371","Comercial","Tuesday",false,5
+"60f6b8ebfdd62c30e8c55372","Comercial","Tuesday",false,5
+"60f6b906fdd62c30e8c55373","Comercial","Tuesday",false,1

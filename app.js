@@ -21,6 +21,12 @@ let confusionMatrix = [
     [0, 0, 0, 0, 0],
 ];
 
+// let cars_list = ['Car Id: ', 'Segment exit predict:'];
+
+let cars_list = [];
+let predicts_list = [];
+
+
 //------------------- mongoDB -----------
 
 const mongodb = require('./mongoDB');
@@ -67,15 +73,32 @@ io.on("connection", (socket) => {
 
 // ----------------------------------------------
 
-app.post('/updateconfusionMatrix', (req, res) => {
+app.post('/update_car_list', (req, res) => {
+    var car_id = parseInt(req.body.car_id);
+    var predict_class = parseInt(req.body.predict);
+    cars_list.push(car_id);
+    predicts_list.push(predict_class);
+    res.redirect('/confusionMatrix');
+    io.sockets.emit('reload', {});
+})
+
+app.post('/update_confusionMatrix', (req, res) => {
     var predict_class=parseInt(req.body.predict);
     var actual_class=parseInt(req.body.actual);
-    
+    var car_id = parseInt(req.body.car_id);
+
     if(predict_class < 1 || predict_class > 5 ||
         actual_class < 1 || actual_class > 5) {
             console.error("value classes not right: \npredict_class: "+ predict_class + "\nactual_class: "+ actual_class);
     }
     confusionMatrix[predict_class-1][actual_class-1] += 1;
+
+    const index = cars_list.indexOf(car_id);
+    if (index > -1) {
+        cars_list.splice(index, 1);
+        predicts_list.splice(index, 1);
+    }
+
     res.redirect('/confusionMatrix');
     io.sockets.emit('reload', {});
 })
@@ -122,7 +145,9 @@ app.get('/', function(request, response){
     response.sendFile(path.join(__dirname)+'/index.html');
 });
 app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix', {
-    confusionMatrix: confusionMatrix
+    confusionMatrix: confusionMatrix,
+    cars: cars_list,
+    predicts: predicts_list
 }));
 // 
 // app.get('/edenandanna', (req, res) => res.render('edenandanna'));

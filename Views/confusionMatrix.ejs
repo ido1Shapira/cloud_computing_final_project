@@ -16,13 +16,20 @@
     <form action="/trainModel" method="POST">
         <button type="submit" class="button"><span>train model</span></button>
     </form>
-    <form action="/updateconfusionMatrix" method="POST">
-        <fieldset>
-            <input type="text" name="predict">
-            <input type="text" name="actual">
-            <button type="submit" class="button"><span>send</span></button>
-        </fieldset>
-    </form>
+    <% if (cars && cars.length) { %>
+        <table>
+            <tr>
+              <th>Car Id</th>
+              <th>Predict exit</th>
+            </tr>
+            <% cars.forEach((id) => { %>
+                <% const index = cars.indexOf(id); %>
+                <tr>
+                    <th><%= id %></th>
+                    <th><%= predicts[index] %></th>
+                </tr>
+              <% }) %>
+      <% } %>
 	<script>
         var socket = io();
         socket.on('reload', function (data) {
@@ -203,9 +210,9 @@
         }
 
         // The table generation function
-        function tabulate(data, columns) {
+        function tabulate(data, columns, left) {
             var table = d3.select("#dataView").append("table")
-                    .attr("style", "margin-left: " + margin.left +"px"),
+                    .attr("style", "margin-left: " + left +"px"),
                 thead = table.append("thead"),
                 tbody = table.append("tbody");
 
@@ -255,31 +262,20 @@
                 }
             }
         }
-        
-        var tp = confusionMatrix[0][0];
-        var fn = confusionMatrix[0][1];
-        var fp = confusionMatrix[1][0];
-        var tn = confusionMatrix[1][1];
-        
-        var p = tp + fn;
-        var n = fp + tn;
-
-        // var accuracy = (tp+tn)/(p+n);
         var accuracy = correct/(correct+worng);
 
-        var f1 = 2*tp/(2*tp+fp+fn);
-        var precision = tp/(tp+fp);
-        var recall = tp/(tp+fn);
-
         accuracy = Math.round(accuracy * 100) / 100
-        f1 = Math.round(f1 * 100) / 100
-        precision = Math.round(precision * 100) / 100
-        recall = Math.round(recall * 100) / 100
 
         var computedData = [];
-        computedData.push({"F1":f1, "PRECISION":precision,"RECALL":recall,"ACCURACY":accuracy});
+        computedData.push({"ACCURACY":accuracy});
 
-        var labels = ['Section 1', 'Section 2', 'Section 3', 'Section 4', 'Section 5'];
+        // var predictData = [];
+        // predictData.push({"Segment 1": 0, "Segment 2": 0, "Segment 3": 0, "Segment 4": 0, "Segment 5": 0});
+       
+
+        // var table = tabulate(computedData, ["F1", "PRECISION","RECALL","ACCURACY"]);
+
+        var labels = ['Segment 1', 'Segment 2', 'Segment 3', 'Segment 4', 'Segment 5'];
 		Matrix({
 			container : '#container',
 			data      : confusionMatrix,
@@ -289,7 +285,10 @@
 		});
 
 		// rendering the table
-         var table = tabulate(computedData, ["F1", "PRECISION","RECALL","ACCURACY"]);
+         var computed_table = tabulate(computedData, ["ACCURACY"], margin.left);
+
+        //  var predicts_table = tabulate(predictData, ["Segment 1", "Segment 2", "Segment 3", "Segment 4", "Segment 5"], margin.left + 200);
+
 
 	</script>
 </body>

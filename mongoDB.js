@@ -25,10 +25,15 @@ var mongo = {
     client.close();
     console.log("MongoDB connection closed");
   },
-  onEvent: function(event) {
-    carEvent = JSON.parse(event);
+  onEvent: function(carEvent) {
     if(carEvent.Event_type == "road exit") {
-      db.insertOne(newCar, function(err, res) {
+      car = {
+        vehicle_type: carEvent.vehicle_type,
+        Day_of_the_week: carEvent.Day_of_the_week,
+        Special_day: carEvent.Special_day,
+        Segment: carEvent.Segment
+      };
+      db.insertOne(car, function(err, res) {
         if (err) throw err;
         console.log("1 car inserted");
       });
