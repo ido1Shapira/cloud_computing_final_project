@@ -19,7 +19,7 @@ function writeEvent(et, seg, id, vt, dotw, time, sd){
         "vehicle_type": type[vt],
         "Day_of_the_week" : weekdays[dotw],
         "Time": time,
-        "Special_day?": sd
+        "Special_day": sd
     };
     // console.log(event);
 
