@@ -125,6 +125,10 @@ module.exports.run= async function(){
             }
         }
         var sleeptime = getRandomInt(5) + 2;
+        //less cars in a special day 
+        if (isSpecialDay){
+            sleeptime = sleeptime + 4
+        }
         await sleep(sleeptime*1000);
     }
 }
