@@ -102,8 +102,17 @@ module.exports.run= async function(){
             // var id = segarr[seg-1][randeomCar];
             var id = getRandomKey(segarr[seg-1]);
             var vehicletype = segarr[seg-1].get(id); // private, truck, comercial 
-            
-            if (seg ==5 ){//exit road 
+            if (seg == 3 && vehicletype == 1){
+                writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay);
+                segarr[seg-1].delete(id)
+                writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay);
+            }
+            else if(seg == 4 && vehicletype == 2){
+                writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay);
+                segarr[seg-1].delete(id)
+                writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay);
+            }
+            else if (seg ==5 ){//exit road 
                 writeEvent("segment exit", seg,id,vehicletype,dayofweek,time,isSpecialDay);
                 segarr[seg-1].delete(id)
                 writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay);
