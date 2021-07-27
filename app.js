@@ -25,6 +25,8 @@ let confusionMatrix = [
 
 let cars_list = [];
 let predicts_list = [];
+let car_details_list = [];
+
 
 
 //------------------- mongoDB -----------
@@ -67,7 +69,7 @@ const simulator = require('./simulator');
 //------------ Socket.io ----------------
 
 io.on("connection", (socket) => {
-    console.log('a user connected');
+    // console.log('a user connected');
 });
   
 
@@ -76,8 +78,12 @@ io.on("connection", (socket) => {
 app.post('/update_car_list', (req, res) => {
     var car_id = parseInt(req.body.car_id);
     var predict_class = parseInt(req.body.predict);
+    var car_details = req.body.car_details;
+
     cars_list.push(car_id);
     predicts_list.push(predict_class);
+    car_details_list.push(car_details);
+
     res.redirect('/confusionMatrix');
     io.sockets.emit('reload', {});
 })
@@ -97,6 +103,7 @@ app.post('/update_confusionMatrix', (req, res) => {
     if (index > -1) {
         cars_list.splice(index, 1);
         predicts_list.splice(index, 1);
+        car_details_list.splice(index, 1);
     }
 
     res.redirect('/confusionMatrix');
@@ -147,7 +154,8 @@ app.get('/', function(request, response){
 app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix', {
     confusionMatrix: confusionMatrix,
     cars: cars_list,
-    predicts: predicts_list
+    predicts: predicts_list,
+    cars_details: car_details_list
 }));
 // 
 // app.get('/edenandanna', (req, res) => res.render('edenandanna'));

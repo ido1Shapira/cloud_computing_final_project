@@ -44,7 +44,8 @@ var ML = {
                     cars_predict_seg.set(car_id, seg_predict);
                     axios.post('http://localhost:3000/update_car_list', {
                         car_id: car_id,
-                        predict: seg_predict
+                        predict: seg_predict,
+                        car_details: carEvent
                     });
                 });
             }

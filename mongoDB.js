@@ -35,11 +35,9 @@ var mongo = {
       };
       db.insertOne(car, function(err, res) {
         if (err) throw err;
-        console.log("1 car inserted");
+        console.log("mongoDB: 1 car inserted");
       });
     }
-    //---------------------------------------
-    // sendMessage(JSON.stringify(newCar));
   },
 
   dataToCSV: function () {

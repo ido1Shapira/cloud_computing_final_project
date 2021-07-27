@@ -9,27 +9,41 @@
 </head>
 <body>
     <a href="/" class="previous">&laquo; Previous</a>
-    <div id="dataView"></div>
-    <div style="display:inline-block; float:left;" id="container"></div>
-    <div style="display:inline-block; float:left;" id="legend"></div>
-
-    <form action="/trainModel" method="POST">
-        <button type="submit" class="button"><span>train model</span></button>
-    </form>
     <% if (cars && cars.length) { %>
-        <table>
+        <table class="car_table">
             <tr>
               <th>Car Id</th>
               <th>Predict exit</th>
+              <th></th>
             </tr>
             <% cars.forEach((id) => { %>
                 <% const index = cars.indexOf(id); %>
                 <tr>
                     <th><%= id %></th>
                     <th><%= predicts[index] %></th>
+                    <td> <div class="dropdown">
+                        <button class="dropbtn">Car details</button>
+                        <div class="dropdown-content">
+                            <% var car_detail = cars_details[index] %>
+                          <a href="#">Time road entry: <%= car_detail.Time %> </a>
+                          <a href="#">Segment entry: <%= car_detail.Segment %></a>
+                          <a href="#">Vehicle type: <%= car_detail.vehicle_type %></a>
+                        </div>
+                      </div>
+                    </td>
                 </tr>
               <% }) %>
       <% } %>
+
+    <div id="dataView"></div>
+    <form action="/trainModel" method="POST">
+        <button type="submit" class="button"><span>train model</span></button>
+    </form>
+    <div style="display:inline-block; float:left;" id="container"></div>
+    <div style="display:inline-block; float:left;" id="legend"></div>
+
+    
+    
 	<script>
         var socket = io();
         socket.on('reload', function (data) {
@@ -249,6 +263,15 @@
         var confusionMatrix = JSON.parse('<%- JSON.stringify(confusionMatrix) %>');
         console.log("confusionMatrix:\n" + confusionMatrix);
 
+        // Get predicts from server
+        var predicts_list = JSON.parse('<%- JSON.stringify(predicts) %>');
+
+        // count how many item in each value
+        var occurrences = {1:0, 2:0, 3:0, 4:0, 5:0};
+        for (var i = 0, j = predicts_list.length; i < j; i++) {
+            occurrences[predicts_list[i]] = (occurrences[predicts_list[i]] || 0) + 1;
+        }
+        
         // Calculate accuracy
         var correct = 0;
         var worng = 0;
@@ -269,25 +292,27 @@
         var computedData = [];
         computedData.push({"ACCURACY":accuracy});
 
-        // var predictData = [];
-        // predictData.push({"Segment 1": 0, "Segment 2": 0, "Segment 3": 0, "Segment 4": 0, "Segment 5": 0});
+        // Calculate predicts
+        var predictData = [];
+        predictData.push({"Segment 1": occurrences[1], "Segment 2": occurrences[2], "Segment 3": occurrences[3], "Segment 4": occurrences[4], "Segment 5": occurrences[5]});
        
-
-        // var table = tabulate(computedData, ["F1", "PRECISION","RECALL","ACCURACY"]);
-
         var labels = ['Segment 1', 'Segment 2', 'Segment 3', 'Segment 4', 'Segment 5'];
 		Matrix({
 			container : '#container',
 			data      : confusionMatrix,
 			labels    : labels,
             start_color : '#ffffff',
-            end_color : '#e67e22'
+            end_color : 'DodgerBlue'
 		});
+        
+        if(JSON.stringify(occurrences) != "{\"1\":0,\"2\":0,\"3\":0,\"4\":0,\"5\":0}") {
+            tabulate(predictData, ["Segment 1", "Segment 2", "Segment 3", "Segment 4", "Segment 5"], margin.left + 200);
+        }
 
 		// rendering the table
-         var table = tabulate(computedData, ["ACCURACY"], margin.left);
+        tabulate(computedData, ["ACCURACY"], margin.left);
 
-        //  var table = tabulate(computedData, ["Segment 1", "Segment 2", "Segment 3", "Segment 4", "Segment 5"], margin.left);
+        
 
 
 	</script>
