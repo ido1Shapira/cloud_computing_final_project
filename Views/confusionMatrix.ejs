@@ -36,12 +36,14 @@
       <% } %>
 
     <div id="dataView"></div>
-    <form action="/trainModel" method="POST">
-        <button type="submit" class="button"><span>train model</span></button>
-    </form>
+    
     <div style="display:inline-block; float:left;" id="container"></div>
     <div style="display:inline-block; float:left;" id="legend"></div>
 
+    <form action="/trainModel" method="POST">
+        <button type="submit" class="button"><span>train model</span></button>
+    </form>
+    
 	<script>
         var socket = io();
         socket.on('reload', function (data) {
