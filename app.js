@@ -10,7 +10,6 @@ var bigML_flag = false;
 var consumer_flag = false;
 var producer_flag = false;
 var simulator_flag = false;
-
 var redis_flag = false;
 
 let confusionMatrix = [
@@ -50,7 +49,7 @@ app.post('/trainModel', (req, res) => {
 
 //------------------- Redis & Docker -----------
 
-// eden and anna
+const redis = require('./redis');
 
 //------------ kafka------------
 
@@ -120,6 +119,7 @@ app.post('/services', (req, res) => {
         consumer_flag = true;
         kafkaConsume.addObserver(mongodb);
         kafkaConsume.addObserver(bigml);
+        kafkaConsume.addObserver(redis);
     }
     else if(service == "producer") {
         producer_flag = true;
@@ -132,7 +132,7 @@ app.post('/services', (req, res) => {
         console.error("error!");
     }
 
-    if(producer_flag && mongo_flag && !simulator_flag) {
+    if(producer_flag && mongo_flag && redis_flag && !simulator_flag) {
         simulator.run();
     }
     console.log("server msg: "+ msg);
@@ -157,7 +157,7 @@ app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix', {
     predicts: predicts_list,
     cars_details: car_details_list
 }));
-// 
+
 // app.get('/edenandanna', (req, res) => res.render('edenandanna'));
 
 //------------------------------------
