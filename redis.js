@@ -1,58 +1,17 @@
-const axios = require('axios')
-const redis = require('redis');
-const redisClient = redis.createClient();
+const redisClient = require('redis').createClient();
+
 
 redisClient.on('connect', function() {
     console.log('I am connected');
 });
 
-// no stacktraces leaked to user
-// app.use(function(err, req, res, next) {
-//     res.status(err.status || 500);
-//     res.render('error', {
-//         message: err.message,
-//         error: {}
-//     });
-// });
-
-// server.listen(6063, function() {
-//     console.log('Running on port 6063');
-// });
-
-var redisOp = {
-    // save to db
-
-    // read from db
-
-    // view data
-
-    onEvent: function(carEvent) {
-        // what to do on event of car from kafka ...
-        console.log("redis: msg: "+ carEvent);
-    }
+consumer.on("error", function(err) {
+    console.error(err);
+  });
+  
+module.exports.save = function(data) {
+    redisClient.sadd(data.Segment.toString(), data.id.toString()); // add cars to segment
+    redisClient.srem(data.Segment.toString(), data.id.toString()); // add conditions; 
+    redisClient.smembers(data.Segment.toString()); // show all cars
+    redisClient.scard(data.Segment.toString()); // show number of cars per this segment
 }
-
-module.exports = redisOp;
-
-
-// const getData = {
-//     getSegments: function (segmentNum, sendToViewTheList) {
-//         redisClient.hgetall(segmentNum, function(err, result){
-//             if(err) console.log(err);
-//             sendToViewTheList(result);
-//         });
-//     },
-//     getNumberOfCars: function (sendToViewTheNumbers) {
-//         redisClient.get('segmentsNum', (err, reply) => {
-//             if(err) console.log(err);
-//             sendToViewTheNumbers(reply);
-//         });
-//     }
-// }
-
-// module.exports.getData = getData;
-
-axios.post('http://localhost:3000/services', {
-        service: "redis",
-        msg: "redis is ready"
-});

@@ -12,6 +12,7 @@ const kafkaConf = {
   "debug": "generic,broker,security"
 };
 const axios = require('axios');
+const Redis = require('./Redis');
 
 let observers = [];
 
@@ -46,6 +47,7 @@ consumer.on("data", function(data) {
     // console.log(observers[i]);
     observers[i].onEvent(carParams);
   }
+  Redis.save(Json.parse(data)); // data.value.toString ?
   });
 consumer.on("disconnected", function(arg) {
   process.exit();
