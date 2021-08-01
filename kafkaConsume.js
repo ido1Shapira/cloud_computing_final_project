@@ -12,7 +12,6 @@ const kafkaConf = {
   "debug": "generic,broker,security"
 };
 const axios = require('axios');
-const Redis = require('./Redis');
 
 let observers = [];
 
@@ -34,7 +33,7 @@ consumer.on("error", function(err) {
 consumer.on("ready", function(arg) {
   axios.post('http://localhost:3000/services', {
                     service: "consumer",
-                    msg: `Consumer ${arg.name} for mongoDB and BigML is ready`
+                    msg: `Consumer ${arg.name} is ready`
                 });
   consumer.subscribe(topics);
   consumer.consume();
@@ -47,8 +46,7 @@ consumer.on("data", function(data) {
     // console.log(observers[i]);
     observers[i].onEvent(carParams);
   }
-  Redis.save(Json.parse(data)); // data.value.toString ?
-  });
+});
 consumer.on("disconnected", function(arg) {
   process.exit();
 });

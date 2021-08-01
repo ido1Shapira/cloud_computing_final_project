@@ -158,7 +158,9 @@ app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix', {
     cars_details: car_details_list
 }));
 
-// app.get('/edenandanna', (req, res) => res.render('edenandanna'));
+app.get('/redisView', (req, res) => res.render('redisView', {
+    
+}));
 
 //------------------------------------
 server.listen(port, () => console.log(`Our app listening at http://localhost:${port}`));
