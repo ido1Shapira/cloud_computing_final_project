@@ -17,7 +17,10 @@
 		<script>
 			var socket = io();
         	socket.on('ready', function (data) {
-				document.getElementById('loading').style.visibility = 'hidden';
+				document.getElementById("loading").style.display = "none";
+
+				document.getElementById("DA").style.display = "inline";
+				document.getElementById("CM").style.display = "inline";
 			});
 		</script>
 		<!-- Wrapper -->
@@ -40,11 +43,11 @@
 										in order to build a Node js app that shows statistics on the vehicles on the road and also the possibility of predicting the exit of a vehicle given its features.
 			                		</p>
 			                	</div>
-			                	<div id="DA" class="buttons wow fadeInUp">							
-									<a class="btn btn-primary btn-customized scroll-link" href="/redisView" role="button">
+			                	<div class="buttons wow fadeInUp">							
+									<a id="DA" class="btn btn-primary btn-customized scroll-link" href="/redisView" role="button" style="display: none; margin-right: 5%;">
 										<i class="fas fa-book-open"></i> Data analysis from the road
 									</a>
-									<a id="CM" class="btn btn-primary btn-customized-2 scroll-link" href="/confusionMatrix" role="button">
+									<a id="CM" class="btn btn-primary btn-customized-2 scroll-link" href="/confusionMatrix" role="button" style="display: none;">
 										<i class="fas fa-pencil-alt"></i> Confusion Matrix and Machine Learning
 									</a>
 									<a id="loading" class="btn btn-primary btn-customized-2 scroll-link">
@@ -56,7 +59,7 @@
 			        </div>
 		        </div>
 		        <!-- Footer -->
-		        <footer class="footer-container">
+		        <footer class="footer-container" style="margin-top: 10%; margin-left: 30%;">
 			        <div class="container">
 			        	<div class="row">
 		                    <div class="col">

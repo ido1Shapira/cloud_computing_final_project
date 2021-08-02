@@ -12,6 +12,8 @@ var producer_flag = false;
 var simulator_flag = false;
 var redis_flag = false;
 
+var ready = false;
+
 let confusionMatrix = [
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
