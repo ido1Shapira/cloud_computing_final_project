@@ -21,9 +21,9 @@ client.connect(err => {
 });
 
 var mongo = {
-  close: function() {
+  onClose: function() {
     client.close();
-    console.log("MongoDB connection closed");
+    console.log("MongoDB: connection closed");
   },
   onEvent: function(carEvent) {
     if(carEvent.Event_type == "road exit") {

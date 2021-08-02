@@ -66,9 +66,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const simulator = require('./simulator');
 
 //------------ Socket.io ----------------
-
 io.on("connection", (socket) => {
-    // console.log('a user connected');
+    // console.log("server: new user on "+ socket.id + " socket");
+    if(ready) {
+        io.sockets.emit('ready', {});
+    }
 });
   
 
@@ -164,3 +166,20 @@ app.get('/redisView', (req, res) => res.render('redisView', {
 
 //------------------------------------
 server.listen(port, () => console.log(`Our app listening at http://localhost:${port}`));
+
+function exitHandler(options, exitCode) {
+    if (options.cleanup) {
+        redis.onClose();
+        mongodb.onClose();
+    }
+    if (options.exit) {
+        console.log("server: shutdown");
+        process.exit();
+    }
+}
+
+//clean and close all servies
+process.on('exit', exitHandler.bind(null, {cleanup:true}));
+
+//catches ctrl+c event
+process.on('SIGINT', exitHandler.bind(null, {exit:true}));

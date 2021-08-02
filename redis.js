@@ -34,8 +34,13 @@ redisClient.on("error", function(err) {
             redisClient.smembers(carEvent.Segment.toString()); // show all cars
             redisClient.scard(carEvent.Segment.toString()); // show number of cars per this segment
         }
+    },
+    onClose: function() {
+        redisClient.flushdb( function (err, succeeded) {
+            if (err) throw err;
+        });
+        console.log("redis: clean redis");
     }
-    
 }
 
 module.exports = redisDB;
