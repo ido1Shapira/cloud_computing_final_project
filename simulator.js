@@ -98,8 +98,7 @@ module.exports.run= async function(){
             while (segarr[seg-1].size == 0){
                 seg = getRandomInt(5)+1;
             }
-            // randeomCar = getRandomInt(segarr[seg-1].size);
-            // var id = segarr[seg-1][randeomCar];
+
             var id = getRandomKey(segarr[seg-1]);
             var vehicletype = segarr[seg-1].get(id); // private, truck, comercial 
             
@@ -109,7 +108,12 @@ module.exports.run= async function(){
                 writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay);
             }
             else{
-                ev = getRandomInt(2) //0- next segment, 1 road exit
+                if (vehicletype == 0) //private car
+                    ev = getRandomInt(4) //1/4 chances to stay 
+                else{ //truck or comercial 
+                    ev = getRandomInt(2)//1/2 chances to stay 
+                }
+
                 if(ev == 0){ //next segment
                     writeEvent("segment exit", seg, id,vehicletype,dayofweek,time,isSpecialDay);
                     writeEvent("segment enrty",seg+1, id,vehicletype,dayofweek,time,isSpecialDay);
@@ -117,7 +121,7 @@ module.exports.run= async function(){
                     segarr[seg].set(id,vehicletype);//get veichel into new segment set
                 }
 
-                else{
+                else{ //road exit
                     writeEvent("segment exit", seg, id, vehicletype,dayofweek,time,isSpecialDay);
                     writeEvent("road exit",seg,id, vehicletype,dayofweek,time,isSpecialDay);
                     segarr[seg-1].delete(id);
