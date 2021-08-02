@@ -28,6 +28,12 @@ let cars_list = [];
 let predicts_list = [];
 let car_details_list = [];
 
+const cars_per_seg = new Map();
+cars_per_seg.set('1', []);
+cars_per_seg.set('2', []);
+cars_per_seg.set('3', []);
+cars_per_seg.set('4', []);
+cars_per_seg.set('5', []);
 
 
 //------------------- mongoDB -----------
@@ -113,6 +119,30 @@ app.post('/update_confusionMatrix', (req, res) => {
     io.sockets.emit('reload', {});
 })
 
+app.post('/update_redisView', (req, res) => {
+    var seg_name = parseInt(req.body.segment);
+    var car = req.body.car;
+    var car_id = parseInt(car.id);
+    for (let [key, value] of cars_per_seg) {
+        for(let car_temp of value) {
+            if(car_id ==  parseInt(car_temp.id)) {
+                const index = value.indexOf(car_temp);
+                if (index > -1) {
+                    value.splice(index, 1);
+                    break;
+                }
+            }
+        }
+    }
+    var flag = req.body.ifNotExit;
+    if(flag) {
+        cars_per_seg.get(""+seg_name).push(car);
+    }
+    
+    res.redirect('/redisView');
+    io.sockets.emit('reload', {});
+})
+
 app.post('/services', (req, res) => {
     var service= req.body.service;
     var msg= req.body.msg;
@@ -163,7 +193,11 @@ app.get('/confusionMatrix', (req, res) => res.render('confusionMatrix', {
 }));
 
 app.get('/redisView', (req, res) => res.render('redisView', {
-    
+    cars_in_seg1: cars_per_seg.get(""+1),
+    cars_in_seg2: cars_per_seg.get(""+2),
+    cars_in_seg3: cars_per_seg.get(""+3),
+    cars_in_seg4: cars_per_seg.get(""+4),
+    cars_in_seg5: cars_per_seg.get(""+5),
 }));
 
 //------------------------------------

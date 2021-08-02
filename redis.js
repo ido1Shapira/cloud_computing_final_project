@@ -1,7 +1,15 @@
-const redisClient = require('redis').createClient();
+const redis = require('redis');
+const client = redis.createClient({
+    host: '127.0.0.1',
+    port: 6379
+});
+// Disable client's AUTH command.
+client['auth'] = null;
+
 const axios = require('axios');
 
-redisClient.on('connect', function() {
+
+client.on('connect', function() {
     // Redis Database connection is ready
     axios.post('http://localhost:3000/services', {
         service: "redis",
@@ -9,7 +17,7 @@ redisClient.on('connect', function() {
     });
 });
 
-redisClient.on("error", function(err) {
+client.on("error", function(err) {
     console.error(err);
   });
 
@@ -17,26 +25,27 @@ redisClient.on("error", function(err) {
     onEvent: function(carEvent) {
         var needToUpdate = false;
         if(carEvent.Event_type == "segment entry") {
-            redisClient.sadd(carEvent.Segment.toString(), carEvent.id.toString()); // add cars to segment
+            client.sadd(carEvent.Segment.toString(), carEvent.id.toString()); // add cars to segment
             needToUpdate = true;
         }
         else if(carEvent.Event_type == "segment exit") {
-            redisClient.srem(carEvent.Segment.toString(), carEvent.id.toString());
+            client.srem(carEvent.Segment.toString(), carEvent.id.toString());
             needToUpdate = true;
         }
         else { // carEvent.Event_type == "road exit" or "road entry"
 
         }
-        
         if(needToUpdate) {
-            // view the data on the dashboard
-
-            redisClient.smembers(carEvent.Segment.toString()); // show all cars
-            redisClient.scard(carEvent.Segment.toString()); // show number of cars per this segment
+            CarNotExit = (carEvent.Event_type == "segment entry");
+            axios.post('http://localhost:3000/update_redisView', {  
+                segment: carEvent.Segment.toString(),
+                ifNotExit: CarNotExit,
+                car: carEvent
+            });
         }
     },
     onClose: function() {
-        redisClient.flushdb( function (err, succeeded) {
+        client.flushdb( function (err, succeeded) {
             if (err) throw err;
         });
         console.log("redis: clean redis");

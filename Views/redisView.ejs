@@ -1,17 +1,166 @@
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Realtime cars on road</title>
+	<title>Data analysis</title>
     <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    
+    <script type="text/javascript">
+        window.onload = function () { // add graph
+        var socket = io();
+        socket.on('reload', function (data) {
+            location.reload();
+        });
+
+        var cars_in_segment1 = JSON.parse('<%- JSON.stringify(cars_in_seg1) %>');
+        var cars_in_segment2 = JSON.parse('<%- JSON.stringify(cars_in_seg2) %>');
+        var cars_in_segment3 = JSON.parse('<%- JSON.stringify(cars_in_seg3) %>');
+        var cars_in_segment4 = JSON.parse('<%- JSON.stringify(cars_in_seg4) %>');
+        var cars_in_segment5 = JSON.parse('<%- JSON.stringify(cars_in_seg5) %>');
+    
+        var seg1_value = cars_in_segment1.length;
+        var seg2_value = cars_in_segment2.length;
+        var seg3_value = cars_in_segment3.length;
+        var seg4_value = cars_in_segment4.length;
+        var seg5_value = cars_in_segment5.length;
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            theme: "light2",
+            title:{
+                text: "Cars on the road"              
+            },
+            data: [//array of dataSeries              
+                { //dataSeries object
+                type: "column",
+                dataPoints: [
+                { label: "Segment 1", y: seg1_value},
+                { label: "Segment 2", y: seg2_value},
+                { label: "Segment 3", y: seg3_value},                                    
+                { label: "Segment 4", y: seg4_value},
+                { label: "Segment 5", y: seg5_value}
+                ]
+            }]});
+        chart.render();
+    }
+  </script>
 </head>
 <body>
+    <h1 class="wow fadeIn" style="text-align: center;"><strong>6 road system: Data analysis</strong></h1>
     <a href="/" class="previous">&laquo; Previous</a>
-    
-    
-	<script>
-        
-    </script>
 
+    <div class="barChart" id="chartContainer"></div>
+
+    <table class="seg_table">
+        <% if (cars_in_seg1 && cars_in_seg1.length) { %>
+        <tr>
+            <th>Segment 1</th>
+            <% cars_in_seg1.forEach((car) => { %>
+            <% const index = cars_in_seg1.indexOf(car); %>
+                <th><%= car.id %>:
+                <div class="dropdown">
+                    <button class="dropbtn">Car details</button>
+                    <div class="dropdown-content">
+                        <% var car_detail = cars_in_seg1[index] %>
+                        <a href="#">Car ID: <%= car_detail.id %> </a>
+                        <a href="#">Time road entry: <%= car_detail.Time %> </a>
+                        <a href="#">Current segment: <%= car_detail.Segment %></a>
+                        <a href="#">Vehicle type: <%= car_detail.vehicle_type %></a>
+                    </div>
+                    </div>
+                </th>
+            </td>
+            <% }) %>
+        </tr>
+        <% } %>
+        <% if (cars_in_seg2 && cars_in_seg2.length) { %>
+            <tr>
+                <th>Segment 2</th>
+                <% cars_in_seg2.forEach((car) => { %>
+                <% const index = cars_in_seg2.indexOf(car); %>
+                    <th><%= car.id %>:
+                    <div class="dropdown">
+                        <button class="dropbtn">Car details</button>
+                        <div class="dropdown-content">
+                            <% var car_detail = cars_in_seg2[index] %>
+                            <a href="#">Car ID: <%= car_detail.id %> </a>
+                            <a href="#">Time road entry: <%= car_detail.Time %> </a>
+                            <a href="#">Current segment: <%= car_detail.Segment %></a>
+                            <a href="#">Vehicle type: <%= car_detail.vehicle_type %></a>
+                        </div>
+                        </div>
+                    </th>
+                </td>
+                <% }) %>
+            </tr>
+            <% } %>
+            <% if (cars_in_seg3 && cars_in_seg3.length) { %>
+                <tr>
+                    <th>Segment 3</th>
+                    <% cars_in_seg3.forEach((car) => { %>
+                    <% const index = cars_in_seg3.indexOf(car); %>
+                        <th><%= car.id %>:
+                        <div class="dropdown">
+                            <button class="dropbtn">Car details</button>
+                            <div class="dropdown-content">
+                                <% var car_detail = cars_in_seg3[index] %>
+                                <a href="#">Car ID: <%= car_detail.id %> </a>
+                                <a href="#">Time road entry: <%= car_detail.Time %> </a>
+                                <a href="#">Current segment: <%= car_detail.Segment %></a>
+                                <a href="#">Vehicle type: <%= car_detail.vehicle_type %></a>
+                            </div>
+                            </div>
+                        </th>
+                    </td>
+                    <% }) %>
+                </tr>
+                <% } %>
+                <% if (cars_in_seg4 && cars_in_seg4.length) { %>
+                    <tr>
+                        <th>Segment 4</th>
+                        <% cars_in_seg4.forEach((car) => { %>
+                        <% const index = cars_in_seg4.indexOf(car); %>
+                            <th><%= car.id %>:
+                            <div class="dropdown">
+                                <button class="dropbtn">Car details</button>
+                                <div class="dropdown-content">
+                                    <% var car_detail = cars_in_seg4[index] %>
+                                    <a href="#">Car ID: <%= car_detail.id %> </a>
+                                    <a href="#">Time road entry: <%= car_detail.Time %> </a>
+                                    <a href="#">Current segment: <%= car_detail.Segment %></a>
+                                    <a href="#">Vehicle type: <%= car_detail.vehicle_type %></a>
+                                </div>
+                                </div>
+                            </th>
+                        </td>
+                        <% }) %>
+                    </tr>
+                    <% } %>
+                    <% if (cars_in_seg5 && cars_in_seg5.length) { %>
+                        <tr>
+                            <th>Segment 5</th>
+                            <% cars_in_seg5.forEach((car) => { %>
+                            <% const index = cars_in_seg5.indexOf(car); %>
+                                <th><%= car.id %>:
+                                <div class="dropdown">
+                                    <button class="dropbtn">Car details</button>
+                                    <div class="dropdown-content">
+                                        <% var car_detail = cars_in_seg5[index] %>
+                                        <a href="#">Car ID: <%= car_detail.id %> </a>
+                                        <a href="#">Time road entry: <%= car.id %> </a>
+                                        <a href="#">Current segment: <%= car_detail.Segment %></a>
+                                        <a href="#">Vehicle type: <%= car_detail.vehicle_type %></a>
+                                    </div>
+                                    </div>
+                                </th>
+                            </td>
+                            <% }) %>
+                        </tr>
+                        <% } %>
+    </table>
 </body>
+</html>
